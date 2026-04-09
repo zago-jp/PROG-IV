@@ -99,8 +99,8 @@ body {
 
 /* LISTA DE PERSONAGENS */
 .lista-personagens {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 145px);
     gap: 18px;
     justify-content: center;
 }
@@ -138,8 +138,8 @@ body {
 
 /* GALERIA */
 .galeria {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
     gap: 14px;
     justify-content: center;
 }
@@ -240,4 +240,24 @@ body {
     text-align: center;
     padding: 18px;
     margin-top: 30px;
+}
+
+@media (max-width: 760px) {
+    .lista-personagens {
+        grid-template-columns: repeat(2, 145px);
+    }
+
+    .galeria {
+        grid-template-columns: repeat(2, 140px);
+    }
+}
+
+@media (max-width: 380px) {
+    .lista-personagens {
+        grid-template-columns: 145px;
+    }
+
+    .galeria {
+        grid-template-columns: 140px;
+    }
 }
