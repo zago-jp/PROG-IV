@@ -1,0 +1,243 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROLAGEM SUAVE */
+html {
+    scroll-behavior: smooth;
+}
+
+/* COR GERAL DO SITE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8dbe5;
+    color: #4d4d4d;
+}
+
+/* TOPO */
+.titulo {
+    background-color: #f17f9c;
+    color: white;
+    text-align: center;
+    padding: 20px 0 14px 0;
+}
+
+.titulo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.link-menu:hover {
+    transform: scale(1.08);
+    color: #fff5f8;
+    text-decoration: underline;
+}
+
+/* FAIXA DE DESTAQUE */
+.destaque {
+    background: linear-gradient(to right, #f79ab2, #f3bfd0);
+    text-align: center;
+    padding: 85px 20px;
+    color: white;
+}
+
+.destaque h2 {
+    font-size: 28px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* CONTAINER CENTRAL */
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* BLOCOS PRINCIPAIS */
+.bloco {
+    background-color: #ffffff;
+    border: 2px solid #f3a8bb;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+
+    /* calor nas bordas */
+    box-shadow: 0 4px 14px rgba(241, 127, 156, 0.28);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease,
+                background-color 0.25s ease;
+}
+
+.bloco:hover {
+    transform: translateY(-4px);
+    background-color: #fff8fb;
+    box-shadow: 0 8px 22px rgba(241, 127, 156, 0.4);
+}
+
+.bloco h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* LISTA DE PERSONAGENS */
+.lista-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+/* CARDS DOS PERSONAGENS */
+.card-personagem {
+    background: linear-gradient(to bottom, #f9cad7, #f4b2c4);
+    border: 2px solid #f3a8bb;
+    width: 145px;
+    min-height: 75px;
+    padding: 12px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(241, 127, 156, 0.22);
+
+    transition: transform 0.22s ease,
+                box-shadow 0.22s ease,
+                background 0.22s ease;
+}
+
+.card-personagem:hover {
+    transform: scale(1.07);
+    background: linear-gradient(to bottom, #f7a9bf, #ef7f9c);
+    box-shadow: 0 8px 18px rgba(241, 127, 156, 0.4);
+}
+
+.card-personagem h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card-personagem p {
+    font-size: 12px;
+}
+
+/* GALERIA */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+
+    /* mesmo tom rosa dos cards */
+    background: linear-gradient(to bottom, #f9cad7, #f4b2c4);
+
+    border: 2px solid #f3a8bb;
+    border-radius: 18px;
+    padding: 6px;
+    box-shadow: 0 3px 10px rgba(241, 127, 156, 0.22);
+
+    transition: transform 0.22s ease,
+                box-shadow 0.22s ease,
+                background 0.22s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.07);
+    background: linear-gradient(to bottom, #f7a9bf, #ef7f9c);
+    box-shadow: 0 8px 18px rgba(241, 127, 156, 0.4);
+}
+
+/* FORMULÁRIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f3d0d9;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    background-color: #fffdfd;
+
+    transition: border 0.2s ease,
+                box-shadow 0.2s ease,
+                background-color 0.2s ease;
+}
+
+.formulario input:hover,
+.formulario textarea:hover {
+    border-color: #f3a8bb;
+    box-shadow: 0 0 8px rgba(241, 127, 156, 0.15);
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    border-color: #ef7f9c;
+    box-shadow: 0 0 10px rgba(241, 127, 156, 0.22);
+    background-color: #fffafc;
+}
+
+.formulario textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+/* BOTÃO ENVIAR */
+.formulario button {
+    border: 2px solid #f3a8bb;
+    background: linear-gradient(to bottom, #f7a9bf, #ef7f9c);
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(241, 127, 156, 0.24);
+
+    transition: transform 0.22s ease,
+                box-shadow 0.22s ease,
+                background 0.22s ease;
+}
+
+.formulario button:hover {
+    transform: scale(1.02);
+    background: linear-gradient(to bottom, #f38cab, #e96c90);
+    box-shadow: 0 8px 18px rgba(241, 127, 156, 0.4);
+}
+
+.formulario button:active {
+    transform: scale(0.98);
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #f17f9c;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
