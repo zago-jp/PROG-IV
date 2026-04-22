@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle at top, #2c2333 0%, #1b1824 45%, #121019 100%);
+    color: #f2eef7;
+    cursor: none;
+    user-select: none;
+}
+
+.hud {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    padding: 20px 12px 14px;
+}
+
+.hud h1 {
+    font-size: 28px;
+    color: #d8b4f8;
+    margin-bottom: 6px;
+}
+
+.hud p {
+    font-size: 14px;
+    color: #cbb8da;
+    margin-bottom: 14px;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.score-box {
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(216, 180, 248, 0.18);
+    box-shadow: 0 0 12px rgba(120, 90, 160, 0.15);
+    font-size: 22px;
+    font-weight: bold;
+    color: #f7f2fb;
+}
+
+#botao-start {
+    border: none;
+    border-radius: 12px;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #8b5fbf;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#botao-start:hover {
+    background: #9b6fd1;
+    transform: scale(1.04);
+}
+
+.area-jogo {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 130px);
+    overflow: hidden;
+}
+
+/* Yami maior */
+#yami {
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    display: none;
+    z-index: 10;
+    pointer-events: auto;
+    filter: drop-shadow(0 0 14px rgba(180, 120, 255, 0.35));
+    transition: transform 0.15s ease;
+}
+
+#yami:hover {
+    transform: scale(1.05);
+}
+
+/* Cursor falso */
+#cursor-espada {
+    position: fixed;
+    width: 52px;
+    height: 52px;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    pointer-events: none;
+    transform: translate(-10px, -8px) rotate(-25deg);
+    filter: drop-shadow(0 0 8px rgba(200, 80, 80, 0.35));
+}
+
+/* Glow mais suave */
+#cursor-glow {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(180, 70, 70, 0.15);
+    border: 1px solid rgba(220, 120, 120, 0.25);
+    box-shadow: 0 0 12px rgba(180, 70, 70, 0.22);
+}
+
+/* Rastro suave */
+.trail {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9997;
+    transform: translate(-50%, -50%);
+    background: rgba(180, 70, 70, 0.18);
+    box-shadow: 0 0 10px rgba(180, 70, 70, 0.2);
+    animation: fadeTrail 0.45s linear forwards;
+}
+
+@keyframes fadeTrail {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.2);
+    }
+}
