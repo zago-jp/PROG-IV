@@ -1,23 +1,106 @@
 body {
-    background: #111;
-    color: white;
+    margin: 0;
     font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    border-bottom: 2px solid #facc15;
+}
+
+h1 {
+    color: #facc15;
 }
 
 .controls {
-    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #ef4444;
+    color: white;
+    cursor: pointer;
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
 }
 
 .card {
-    background: #222;
-    padding: 10px;
-    border-radius: 10px;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 12px;
     text-align: center;
-    width: 120px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card img {
+    width: 100px;
+}
+
+.type {
+    display: inline-block;
+    background: #334155;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+/* MODAL */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.modal-content p {
+    margin: 5px 0;
+}
+
+.modal-content h3 {
+    margin-top: 10px;
+    color: #facc15;
 }

@@ -1,52 +1,106 @@
-const pokedex = document.getElementById('pokedex');
-let listaPokemons = [];
+const pokedex = document.getElementById("pokedex");
+const modal = document.getElementById("modal");
+const modalBody = document.getElementById("modalBody");
 
-async function carregarPokemons() {
-    for (let i = 1; i <= 100; i++) {
-        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
-        const data = await res.json();
-        listaPokemons.push(data);
+let lista = [];
+let listaOriginal = [];
+
+// carregar tipos no select
+const tipos = ["fire","water","grass","electric","rock","ground","psychic"];
+const select = document.getElementById("typeFilter");
+
+tipos.forEach(t => {
+    const op = document.createElement("option");
+    op.value = t;
+    op.textContent = t;
+    select.appendChild(op);
+});
+
+// carregar pokemons
+async function carregar() {
+    let promessas = [];
+
+    for (let i = 1; i <= 151; i++) {
+        promessas.push(fetch(`https://pokeapi.co/api/v2/pokemon/${i}`).then(r => r.json()));
     }
-    renderizar(listaPokemons);
+
+    lista = await Promise.all(promessas);
+    listaOriginal = [...lista];
+
+    render(lista);
 }
 
-function renderizar(lista) {
-    pokedex.innerHTML = '';
+// renderizar cards
+function render(lista) {
+    pokedex.innerHTML = "";
 
     lista.forEach(p => {
-        const card = document.createElement('div');
-        card.classList.add('card');
+        const card = document.createElement("div");
+        card.classList.add("card");
 
         card.innerHTML = `
             <img src="${p.sprites.front_default}">
             <h3>${p.name}</h3>
+            ${p.types.map(t => `<span class="type">${t.type.name}</span>`).join("")}
         `;
+
+        card.onclick = () => abrirModal(p);
 
         pokedex.appendChild(card);
     });
 }
 
+// buscar
 async function buscarPokemon() {
-    const termo = document.getElementById('search').value;
+    const valor = document.getElementById("search").value.toLowerCase();
 
-    if (!termo) return renderizar(listaPokemons);
+    if (!valor) return render(listaOriginal);
 
-    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${termo}`);
-    const data = await res.json();
-
-    renderizar([data]);
+    try {
+        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${valor}`);
+        const data = await res.json();
+        render([data]);
+    } catch {
+        pokedex.innerHTML = "<p>Não encontrado</p>";
+    }
 }
 
+// filtro
 function filtrarTipo() {
-    const tipo = document.getElementById('typeFilter').value;
+    const tipo = select.value;
 
-    if (!tipo) return renderizar(listaPokemons);
+    if (!tipo) return render(listaOriginal);
 
-    const filtrados = listaPokemons.filter(p =>
+    const filtrados = listaOriginal.filter(p =>
         p.types.some(t => t.type.name === tipo)
     );
 
-    renderizar(filtrados);
+    render(filtrados);
 }
 
-carregarPokemons();
+// modal
+function abrirModal(p) {
+    modal.classList.remove("hidden");
+
+    const stats = p.stats.map(s => {
+        return `<p>${s.stat.name.toUpperCase()}: ${s.base_stat}</p>`;
+    }).join("");
+
+    modalBody.innerHTML = `
+        <h2>${p.name}</h2>
+        <img src="${p.sprites.front_default}">
+        
+        <p><strong>ID:</strong> ${p.id}</p>
+        <p><strong>Altura:</strong> ${p.height}</p>
+        <p><strong>Peso:</strong> ${p.weight}</p>
+
+        <h3>Atributos</h3>
+        ${stats}
+    `;
+}
+
+function fecharModal() {
+    modal.classList.add("hidden");
+}
+
+carregar();
