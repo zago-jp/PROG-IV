@@ -1,0 +1,1595 @@
+{
+  "nen": {
+    "metadata": {
+      "titulo": "Nen",
+      "subtitulo": "Sistema de aura, técnica e individualidade em Hunter x Hunter",
+      "descricao_curta": "Nen é o sistema de poder central de Hunter x Hunter: uma disciplina que permite perceber, controlar e aplicar aura de acordo com treino, personalidade, estratégia e restrições.",
+      "imagem_principal": "assets/imagens/nen/nen-introducao.png",
+      "fontes_consultadas": [
+        "https://hunterxhunter.fandom.com/wiki/Nen",
+        "https://hunterxhunter.fandom.com/wiki/Nen#Basic_Techniques",
+        "https://hunterxhunter.fandom.com/wiki/Nen#Advanced_Techniques",
+        "https://hunterxhunter.fandom.com/wiki/Nen#Types",
+        "https://hunterxhunter.fandom.com/wiki/Nen#Nen_Abilities"
+      ]
+    },
+    "introducao": {
+      "titulo": "O que é Nen?",
+      "descricao": "Nen é a arte de usar conscientemente a aura, a energia vital emitida por todos os seres vivos. Em Hunter x Hunter, ele não funciona apenas como força bruta: cada técnica nasce da forma como o usuário entende o próprio corpo, administra risco, controla emoções e transforma intenção em ação. Por isso, dois usuários com o mesmo tipo de Nen podem lutar de maneiras completamente diferentes.",
+      "descricao_completa": "Nen é a arte de usar conscientemente a aura, a energia vital emitida por todos os seres vivos. Em Hunter x Hunter, ele não funciona apenas como força bruta: cada técnica nasce da forma como o usuário entende o próprio corpo, administra risco, controla emoções e transforma intenção em ação. Por isso, dois usuários com o mesmo tipo de Nen podem lutar de maneiras completamente diferentes. A introdução formal do Nen muda a obra de uma aventura baseada em resistência física e instinto para um sistema de combate estratégico, no qual informação, preparo, leitura psicológica e condições específicas podem ser tão importantes quanto velocidade ou poder destrutivo.",
+      "aura": {
+        "descricao": "Aura é a energia vital que flui naturalmente para fora do corpo através dos poros de aura. Pessoas comuns liberam essa energia de modo inconsciente e disperso, enquanto usuários de Nen aprendem a contê-la, expandi-la, escondê-la e moldá-la para defesa, ataque, percepção ou habilidades pessoais.",
+        "importancia": "Dominar aura amplia resistência, potência física, percepção e capacidade de executar técnicas especiais. Em combate, a diferença entre alguém que controla aura e alguém sem defesa de Nen pode ser decisiva, pois a aura também protege o corpo contra ataques carregados de intenção hostil.",
+        "riscos": "Forçar a abertura dos poros de aura sem preparo pode causar exaustão, perda de controle e vulnerabilidade. Como aura é energia vital, gastá-la de forma descuidada enfraquece o usuário e pode deixá-lo exposto a danos físicos ou psicológicos."
+      },
+      "papel_na_obra": "Nen organiza a progressão de poder da série e dá coerência às lutas. Ele transforma confrontos em disputas de leitura, blefe, especialização e custo-benefício, permitindo que personagens mais fracos em força direta vençam por estratégia, condições bem construídas ou melhor domínio técnico."
+    },
+    "menu": [
+      {
+        "id": "tecnicas-basicas",
+        "titulo": "Técnicas Básicas",
+        "descricao": "Fundamentos usados para conter, ocultar, expandir e expressar aura: Ten, Zetsu, Ren e Hatsu."
+      },
+      {
+        "id": "tecnicas-avancadas",
+        "titulo": "Técnicas Avançadas",
+        "descricao": "Aplicações refinadas das bases do Nen, usadas para leitura, ataque, defesa, camuflagem e controle de distribuição de aura."
+      },
+      {
+        "id": "testes",
+        "titulo": "Testes",
+        "descricao": "Métodos usados para identificar afinidade, observar tendências e avaliar o uso real de aura."
+      },
+      {
+        "id": "tipos",
+        "titulo": "Tipos",
+        "descricao": "As seis categorias principais de Nen e suas relações de afinidade no diagrama."
+      },
+      {
+        "id": "habilidades-de-nen",
+        "titulo": "Habilidades de Nen",
+        "descricao": "Técnicas individuais criadas a partir da afinidade, personalidade, treino e condições de cada usuário."
+      },
+      {
+        "id": "condicoes-e-restricoes",
+        "titulo": "Condições e Restrições",
+        "descricao": "Regras voluntárias, limitações e juramentos que podem aumentar poder em troca de risco real."
+      },
+      {
+        "id": "diagrama-afinidade",
+        "titulo": "Diagrama de Afinidade",
+        "descricao": "Mapa circular que mostra proximidade, eficiência e dificuldade entre os tipos de Nen."
+      },
+      {
+        "id": "exemplos-de-usuarios",
+        "titulo": "Exemplos de Usuários",
+        "descricao": "Personagens da wiki associados a tipos e habilidades relevantes."
+      },
+      {
+        "id": "glossario",
+        "titulo": "Glossário",
+        "descricao": "Termos essenciais para consultar rapidamente conceitos do sistema."
+      }
+    ],
+    "fundamentos": [
+      {
+        "id": "ten",
+        "nome": "Ten",
+        "descricao_curta": "Mantém a aura ao redor do corpo.",
+        "descricao_completa": "Ten é o primeiro fundamento defensivo do Nen. Ele impede que a aura se disperse livremente e cria uma camada estável ao redor do usuário, reduzindo desgaste e oferecendo proteção básica contra pressão de aura."
+      },
+      {
+        "id": "zetsu",
+        "nome": "Zetsu",
+        "descricao_curta": "Fecha o fluxo de aura.",
+        "descricao_completa": "Zetsu interrompe a emissão de aura e ajuda o usuário a se esconder, recuperar energia ou reduzir sua presença. Em troca, deixa o corpo muito vulnerável caso o usuário seja atacado por alguém usando Nen."
+      },
+      {
+        "id": "ren",
+        "nome": "Ren",
+        "descricao_curta": "Expande a aura com intensidade.",
+        "descricao_completa": "Ren aumenta a quantidade de aura liberada e fortalece ataque, defesa e pressão espiritual. É uma base indispensável para resistir a usuários fortes e para alimentar técnicas mais exigentes."
+      },
+      {
+        "id": "hatsu",
+        "nome": "Hatsu",
+        "descricao_curta": "Expressa a aura de forma individual.",
+        "descricao_completa": "Hatsu é a manifestação pessoal do Nen. Ele conecta afinidade, intenção, personalidade e técnica, permitindo que cada usuário desenvolva habilidades próprias, como correntes, explosões, eletricidade, manipulação ou poderes especializados."
+      }
+    ],
+    "tecnicas_basicas": [
+      {
+        "id": "ten",
+        "nome": "Ten",
+        "nome_traduzido": "Manutenção da aura",
+        "categoria": "Técnica Básica",
+        "imagem": "assets/imagens/nen/ten.png",
+        "descricao_curta": "Técnica que mantém a aura contida e estável ao redor do corpo.",
+        "descricao_completa": "Ten é a base defensiva do Nen. Ao manter a aura próxima ao corpo, o usuário reduz a perda natural de energia vital e cria uma proteção constante contra pressão de aura e ataques simples. Embora não seja suficiente contra técnicas avançadas, Ten é indispensável para sobreviver ao contato com usuários experientes.",
+        "funcao_principal": "Conservar aura, estabilizar o corpo e formar uma defesa básica.",
+        "como_funciona": "O usuário abre e controla os poros de aura, impedindo que a energia se disperse. A aura passa a circular como uma película firme ao redor do corpo, reforçando resistência e controle.",
+        "vantagens": [
+          "Aumenta a resistência contra aura hostil.",
+          "Ajuda a conservar energia por mais tempo.",
+          "Serve como base para técnicas defensivas e ofensivas mais complexas."
+        ],
+        "riscos_ou_limitacoes": [
+          "Oferece proteção limitada contra ataques concentrados.",
+          "Não substitui leitura de combate nem técnicas avançadas.",
+          "Exige manutenção constante para não perder estabilidade."
+        ],
+        "exemplos_de_uso": [
+          "Gon e Killua aprendem Ten ao iniciar o treinamento formal de Nen.",
+          "Usuários experientes mantêm Ten naturalmente durante conversas, deslocamentos e combates."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "killua-zoldyck",
+          "biscuit-krueger"
+        ]
+      },
+      {
+        "id": "zetsu",
+        "nome": "Zetsu",
+        "nome_traduzido": "Supressão da aura",
+        "categoria": "Técnica Básica",
+        "imagem": "assets/imagens/nen/zetsu.png",
+        "descricao_curta": "Técnica que fecha o fluxo de aura e oculta a presença do usuário.",
+        "descricao_completa": "Zetsu interrompe a emissão de aura e torna o usuário muito mais difícil de detectar por percepção de Nen. Também acelera a recuperação após esforço intenso, pois reduz o gasto de energia. A técnica, porém, remove a defesa natural de aura e deixa o corpo exposto caso o usuário seja atingido.",
+        "funcao_principal": "Ocultar presença, recuperar energia e interromper a emissão de aura.",
+        "como_funciona": "O usuário fecha os poros de aura e impede que sua energia vital vaze para fora do corpo. Isso reduz sinais espirituais, mas também elimina a camada protetora mantida por Ten.",
+        "vantagens": [
+          "Facilita infiltração, perseguição e fuga.",
+          "Ajuda na recuperação de fadiga causada por uso intenso de Nen.",
+          "Pode ser usado para reduzir a leitura da intenção do usuário."
+        ],
+        "riscos_ou_limitacoes": [
+          "Deixa o usuário extremamente vulnerável a ataques com aura.",
+          "Pode ser perigoso se usado perto de inimigos atentos.",
+          "Não garante invisibilidade física, apenas reduz presença de aura."
+        ],
+        "exemplos_de_uso": [
+          "Gon usa ocultação e paciência durante situações de caça e observação.",
+          "Usuários que precisam se aproximar sem serem percebidos usam Zetsu como apoio estratégico."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "killua-zoldyck",
+          "kite"
+        ]
+      },
+      {
+        "id": "ren",
+        "nome": "Ren",
+        "nome_traduzido": "Expansão da aura",
+        "categoria": "Técnica Básica",
+        "imagem": "assets/imagens/nen/ren.png",
+        "descricao_curta": "Técnica que aumenta a produção e a intensidade da aura.",
+        "descricao_completa": "Ren libera uma quantidade maior de aura e amplia a pressão espiritual do usuário. Ele fortalece ataque e defesa, mas também consome energia rapidamente. Em combate, Ren demonstra capacidade, intimida adversários e sustenta técnicas que exigem grande volume de aura.",
+        "funcao_principal": "Aumentar potência, pressão e resistência por meio de aura expandida.",
+        "como_funciona": "O usuário força uma emissão mais intensa de aura enquanto mantém controle suficiente para não desperdiçá-la. O resultado é um aumento visível ou perceptível de presença e poder.",
+        "vantagens": [
+          "Eleva poder ofensivo e defensivo.",
+          "Permite sustentar técnicas exigentes.",
+          "Pode pressionar emocionalmente adversários menos preparados."
+        ],
+        "riscos_ou_limitacoes": [
+          "Consome energia com rapidez.",
+          "Pode denunciar a posição do usuário.",
+          "Exige controle para não virar desperdício de aura."
+        ],
+        "exemplos_de_uso": [
+          "Gon e Killua treinam Ren para aguentar o nível de adversários da Torre Celestial.",
+          "Biscuit usa exercícios de Ren para aumentar a base física e técnica de seus alunos."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "killua-zoldyck",
+          "biscuit-krueger"
+        ]
+      },
+      {
+        "id": "hatsu",
+        "nome": "Hatsu",
+        "nome_traduzido": "Expressão individual da aura",
+        "categoria": "Técnica Básica",
+        "imagem": "assets/imagens/nen/hatsu.png",
+        "descricao_curta": "Técnica que transforma aura em uma habilidade pessoal.",
+        "descricao_completa": "Hatsu é a aplicação individual do Nen. Ele permite que a aura seja reforçada, transformada, materializada, emitida, manipulada ou especializada de acordo com a afinidade do usuário. Mais do que uma categoria mecânica, Hatsu reflete personalidade, objetivos, limites aceitos e criatividade.",
+        "funcao_principal": "Converter aura controlada em habilidade própria.",
+        "como_funciona": "O usuário combina fundamentos de aura com afinidade natural, imaginação, treino e condições. O resultado pode ser uma técnica simples, uma habilidade com regras rígidas ou um sistema complexo com múltiplas etapas.",
+        "vantagens": [
+          "Permite criar habilidades altamente personalizadas.",
+          "Aproveita a afinidade natural do usuário.",
+          "Pode compensar desvantagens físicas por meio de estratégia."
+        ],
+        "riscos_ou_limitacoes": [
+          "Habilidades mal planejadas podem ser ineficientes.",
+          "Ignorar a própria afinidade reduz desempenho.",
+          "Condições fortes podem criar riscos graves para o usuário."
+        ],
+        "exemplos_de_uso": [
+          "Gon desenvolve Jajanken como expressão direta de seu estilo frontal.",
+          "Kurapika cria correntes com regras específicas para enfrentar a Brigada Fantasma."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "killua-zoldyck",
+          "kurapika",
+          "hisoka-morow",
+          "chrollo-lucilfer"
+        ]
+      }
+    ],
+    "tecnicas_avancadas": [
+      {
+        "id": "gyo",
+        "nome": "Gyo",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/gyo.png",
+        "descricao_curta": "Concentração de aura em uma parte específica do corpo, geralmente nos olhos.",
+        "descricao_completa": "Gyo direciona uma quantidade maior de aura para uma região do corpo. Seu uso mais comum é nos olhos, permitindo enxergar aura oculta por In ou perceber detalhes invisíveis a usuários menos treinados. Também pode fortalecer uma parte específica para ataque ou defesa.",
+        "relacao_com_tecnicas_basicas": "Combina controle de Ten com expansão de Ren, concentrando aura em vez de distribuí-la igualmente.",
+        "funcao_principal": "Aumentar percepção ou fortalecer um ponto específico.",
+        "uso_em_combate": "É usado para detectar armadilhas ocultas, ler técnicas camufladas e reforçar golpes pontuais.",
+        "vantagens": [
+          "Revela aura escondida por técnicas de ocultação.",
+          "Melhora leitura de combate.",
+          "Permite reforço localizado sem gastar aura no corpo inteiro."
+        ],
+        "riscos_ou_limitacoes": [
+          "Concentrar aura em uma área pode enfraquecer outras partes.",
+          "Exige atenção e timing.",
+          "Pode falhar se usado tarde demais contra armadilhas rápidas."
+        ],
+        "exemplos_de_uso": [
+          "Usuários experientes usam Gyo nos olhos para investigar técnicas suspeitas.",
+          "Gon e Killua aprendem a tratar Gyo como hábito defensivo contra inimigos de Nen."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "killua-zoldyck",
+          "hisoka-morow",
+          "kurapika"
+        ]
+      },
+      {
+        "id": "in",
+        "nome": "In",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/in.png",
+        "descricao_curta": "Ocultação avançada de aura e técnicas.",
+        "descricao_completa": "In esconde aura a ponto de tornar objetos, fios ou efeitos de Nen difíceis de perceber. É uma técnica de engano e emboscada, muito útil para usuários que dependem de truques, armadilhas ou manipulação de informação.",
+        "relacao_com_tecnicas_basicas": "É uma aplicação refinada de Zetsu e controle de aura, voltada não para apagar o usuário, mas para esconder uma manifestação específica.",
+        "funcao_principal": "Ocultar aura ativa, objetos materializados ou partes de uma habilidade.",
+        "uso_em_combate": "Serve para preparar ataques invisíveis, esconder correntes, mascarar armadilhas ou manipular a percepção do oponente.",
+        "vantagens": [
+          "Cria surpresa tática.",
+          "Força o adversário a usar Gyo com frequência.",
+          "Combina bem com habilidades baseadas em blefe."
+        ],
+        "riscos_ou_limitacoes": [
+          "Pode ser detectado por Gyo.",
+          "Exige controle fino para manter a ocultação.",
+          "Perde valor contra oponentes atentos e disciplinados."
+        ],
+        "exemplos_de_uso": [
+          "Hisoka usa ocultação e truques visuais para manipular o ritmo de luta.",
+          "Kurapika pode esconder detalhes de suas correntes para limitar a resposta do inimigo."
+        ],
+        "personagens_relacionados": [
+          "hisoka-morow",
+          "kurapika",
+          "chrollo-lucilfer"
+        ]
+      },
+      {
+        "id": "en",
+        "nome": "En",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/en.png",
+        "descricao_curta": "Expansão da aura em área para detectar presença e movimento.",
+        "descricao_completa": "En expande a aura ao redor do usuário como um campo de percepção. Tudo que entra nesse campo pode ser sentido com grande precisão. A técnica é exigente porque precisa manter Ren e Ten em uma área ampliada, consumindo concentração e energia.",
+        "relacao_com_tecnicas_basicas": "Usa Ren para expandir aura e Ten para manter o formato estável fora do corpo.",
+        "funcao_principal": "Detectar presenças, invasões e movimentos dentro de uma área.",
+        "uso_em_combate": "É usado para controle de território, guarda, perseguição e antecipação de ataques.",
+        "vantagens": [
+          "Aumenta muito a percepção espacial.",
+          "Dificulta emboscadas.",
+          "Permite monitorar oponentes fora do campo de visão."
+        ],
+        "riscos_ou_limitacoes": [
+          "Consome muita energia.",
+          "Pode revelar a presença do usuário.",
+          "O alcance varia enormemente conforme talento e treino."
+        ],
+        "exemplos_de_uso": [
+          "Kite demonstra percepção refinada em situações de caça.",
+          "Zeno é conhecido por controle amplo e disciplinado de aura.",
+          "Neferpitou usa En em escala assustadora durante o arco das Formigas Quimera."
+        ],
+        "personagens_relacionados": [
+          "kite",
+          "zeno-zoldyck",
+          "neferpitou"
+        ]
+      },
+      {
+        "id": "shu",
+        "nome": "Shu",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/shu.png",
+        "descricao_curta": "Extensão de aura para envolver e reforçar objetos.",
+        "descricao_completa": "Shu aplica aura a um objeto segurado ou usado pelo usuário, tornando-o mais resistente e perigoso. É essencial para combatentes que usam armas, cartas, correntes, ferramentas ou itens como extensão do próprio corpo.",
+        "relacao_com_tecnicas_basicas": "Estende a lógica de Ten para fora do corpo, mantendo aura aderida a um objeto.",
+        "funcao_principal": "Reforçar objetos e transformá-los em instrumentos viáveis contra Nen.",
+        "uso_em_combate": "Permite que armas comuns resistam a impacto, cortem melhor ou transmitam intenção ofensiva.",
+        "vantagens": [
+          "Aumenta durabilidade e força de objetos.",
+          "Amplia o alcance prático do usuário.",
+          "Combina bem com estilos armados e técnicas materializadas."
+        ],
+        "riscos_ou_limitacoes": [
+          "Exige contato ou controle constante.",
+          "Pode desperdiçar aura em objetos inadequados.",
+          "Não substitui habilidade técnica com a arma."
+        ],
+        "exemplos_de_uso": [
+          "Hisoka transforma cartas em armas letais ao reforçá-las com aura.",
+          "Kurapika usa aura de modo integrado às suas correntes."
+        ],
+        "personagens_relacionados": [
+          "hisoka-morow",
+          "kurapika",
+          "kite"
+        ]
+      },
+      {
+        "id": "ko",
+        "nome": "Ko",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/ko.png",
+        "descricao_curta": "Concentração máxima de aura em um único ponto.",
+        "descricao_completa": "Ko reúne quase toda a aura do usuário em uma parte do corpo, normalmente o punho, criando um ataque ou defesa extremamente concentrado. Como o restante do corpo fica quase sem proteção, a técnica exige oportunidade clara e boa leitura do adversário.",
+        "relacao_com_tecnicas_basicas": "Combina Ten, Zetsu, Ren, Hatsu e Gyo para concentrar aura em um ponto e suprimir o restante.",
+        "funcao_principal": "Produzir impacto máximo em um ataque ou bloqueio localizado.",
+        "uso_em_combate": "É usado para golpes decisivos, testes de resistência ou situações em que o usuário aceita risco por poder concentrado.",
+        "vantagens": [
+          "Gera grande potência em um ponto.",
+          "Pode superar defesas mal distribuídas.",
+          "É eficiente quando o alvo está sem resposta adequada."
+        ],
+        "riscos_ou_limitacoes": [
+          "Deixa o corpo vulnerável fora do ponto protegido.",
+          "É previsível se usado sem preparação.",
+          "Pode ser punido por oponentes rápidos ou técnicos."
+        ],
+        "exemplos_de_uso": [
+          "Gon usa concentração de aura para fortalecer golpes diretos.",
+          "Uvogin representa o perigo de aura concentrada em força física brutal."
+        ],
+        "personagens_relacionados": [
+          "gon-freecss",
+          "uvogin",
+          "hisoka-morow"
+        ]
+      },
+      {
+        "id": "ken",
+        "nome": "Ken",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/ken.png",
+        "descricao_curta": "Estado defensivo prolongado com aura elevada ao redor do corpo.",
+        "descricao_completa": "Ken mantém uma quantidade alta de aura distribuída por todo o corpo por mais tempo. É uma forma resistente de defesa ativa, usada para suportar pressão e trocar golpes sem abrir tantas brechas quanto Ko.",
+        "relacao_com_tecnicas_basicas": "É uma manutenção prolongada de Ren sob controle de Ten, priorizando defesa total.",
+        "funcao_principal": "Sustentar defesa ampla em combates de longa duração.",
+        "uso_em_combate": "Permite resistir a ofensivas contínuas, medir o poder do adversário e manter postura segura enquanto se procura uma abertura.",
+        "vantagens": [
+          "Protege o corpo inteiro.",
+          "É mais seguro que Ko para trocas prolongadas.",
+          "Aumenta estabilidade contra pressão de aura."
+        ],
+        "riscos_ou_limitacoes": [
+          "Consome energia de forma constante.",
+          "Pode ser insuficiente contra ataques extremamente concentrados.",
+          "Exige condicionamento para ser mantido por muito tempo."
+        ],
+        "exemplos_de_uso": [
+          "Biscuit treina Gon e Killua para sustentar aura por períodos maiores.",
+          "Combates contra usuários experientes exigem Ken como defesa mínima."
+        ],
+        "personagens_relacionados": [
+          "biscuit-krueger",
+          "gon-freecss",
+          "killua-zoldyck",
+          "menthuthuyoupi"
+        ]
+      },
+      {
+        "id": "ryu",
+        "nome": "Ryu",
+        "categoria": "Técnica Avançada",
+        "imagem": "assets/imagens/nen/ryu.png",
+        "descricao_curta": "Distribuição dinâmica de aura entre ataque e defesa.",
+        "descricao_completa": "Ryu é o controle proporcional de aura durante o combate. Em vez de manter a aura fixa, o usuário desloca porcentagens para mãos, pernas, cabeça ou tronco conforme ataca, bloqueia ou se reposiciona. É uma técnica decisiva para lutas de alto nível.",
+        "relacao_com_tecnicas_basicas": "Refina Gyo, Ten e Ren em movimento, ajustando distribuição sem perder estabilidade.",
+        "funcao_principal": "Adaptar aura em tempo real às necessidades de ataque e defesa.",
+        "uso_em_combate": "Serve para bloquear golpes com a quantidade certa de aura, atacar sem desperdiçar energia e evitar que o adversário leia padrões simples.",
+        "vantagens": [
+          "Melhora eficiência de aura.",
+          "Aumenta flexibilidade tática.",
+          "Permite responder a mudanças rápidas no combate."
+        ],
+        "riscos_ou_limitacoes": [
+          "Exige leitura rápida e precisão.",
+          "Distribuição errada cria brechas imediatas.",
+          "É difícil de dominar sem experiência real de luta."
+        ],
+        "exemplos_de_uso": [
+          "Biscuit ensina Gon e Killua a pensar em porcentagens de aura durante o combate.",
+          "Usuários experientes alternam ataque e defesa sem depender apenas de força bruta."
+        ],
+        "personagens_relacionados": [
+          "biscuit-krueger",
+          "gon-freecss",
+          "killua-zoldyck",
+          "isaac-netero"
+        ]
+      }
+    ],
+    "testes": [
+      {
+        "id": "adivinhacao-da-agua",
+        "nome": "Adivinhação da Água",
+        "descricao": "Teste tradicional para identificar a afinidade natural de Nen. Ele usa um copo com água e uma folha, observando como a aura do praticante altera o conteúdo.",
+        "como_funciona": "O usuário coloca as mãos ao redor do copo e aplica Ren ou um fluxo controlado de aura. A reação da água e da folha indica a categoria mais provável de afinidade.",
+        "resultados_por_tipo": [
+          {
+            "tipo_id": "enhancement",
+            "tipo_nome": "Reforço",
+            "resultado": "A quantidade de água aumenta."
+          },
+          {
+            "tipo_id": "transmutation",
+            "tipo_nome": "Transformação",
+            "resultado": "O gosto da água muda."
+          },
+          {
+            "tipo_id": "conjuration",
+            "tipo_nome": "Materialização",
+            "resultado": "Impurezas ou partículas aparecem na água."
+          },
+          {
+            "tipo_id": "emission",
+            "tipo_nome": "Emissão",
+            "resultado": "A cor da água muda."
+          },
+          {
+            "tipo_id": "manipulation",
+            "tipo_nome": "Manipulação",
+            "resultado": "A folha se move."
+          },
+          {
+            "tipo_id": "specialization",
+            "tipo_nome": "Especialização",
+            "resultado": "Ocorre um efeito diferente dos resultados anteriores."
+          }
+        ],
+        "limitacoes": [
+          "Indica afinidade natural, não mede força total.",
+          "Pode ser influenciado por controle ruim de aura em iniciantes.",
+          "Não explica sozinho a complexidade de habilidades híbridas."
+        ]
+      },
+      {
+        "id": "observacao-comportamental",
+        "nome": "Observação de comportamento e personalidade",
+        "descricao": "Alguns usuários associam tendências de personalidade aos tipos de Nen, usando comportamento, temperamento e tomada de decisão como pistas complementares.",
+        "como_funciona": "O avaliador observa padrões como impulsividade, lógica, independência, controle, flexibilidade ou imprevisibilidade. A análise ajuda a levantar hipóteses, mas não substitui testes práticos.",
+        "resultados_por_tipo": [],
+        "limitacoes": [
+          "Não é um método científico dentro da obra.",
+          "Pode gerar conclusões erradas quando o personagem esconde intenções.",
+          "Serve melhor como complemento narrativo do que como prova definitiva."
+        ]
+      },
+      {
+        "id": "analise-pratica-em-combate",
+        "nome": "Análise prática em combate",
+        "descricao": "A afinidade e o nível de um usuário também podem ser inferidos pela forma como ele distribui aura, responde a pressão, escolhe distância e cria condições para suas técnicas.",
+        "como_funciona": "Observa-se a eficiência do usuário em ataque, defesa, alcance, manipulação de objetos, materialização, ocultação e custo da habilidade. Lutadores experientes podem deduzir fraquezas a partir de pequenas escolhas.",
+        "resultados_por_tipo": [],
+        "limitacoes": [
+          "Exige experiência para interpretar corretamente.",
+          "Pode ser manipulado por blefes e habilidades ocultas.",
+          "Informação incompleta durante uma luta pode levar a decisões perigosas."
+        ]
+      }
+    ],
+    "tipos": [
+      {
+        "id": "enhancement",
+        "nome": "Reforço",
+        "nome_ingles": "Enhancement",
+        "imagem": "assets/imagens/nen/enhancement.png",
+        "descricao_curta": "Tipo voltado a aumentar propriedades naturais do corpo, objetos ou ações.",
+        "descricao_completa": "Reforço é a categoria mais direta do Nen. Usuários desse tipo ampliam força, resistência, velocidade, cura ou impacto físico, aproveitando a aura para elevar aquilo que já existe. Por ser simples e eficiente, é muito forte em combates frontais e em técnicas que dependem de condicionamento.",
+        "perfil_comum": "Tende a combinar com usuários francos, intensos, teimosos e orientados à ação direta.",
+        "caracteristicas": [
+          "Alta eficiência em ataque e defesa física.",
+          "Boa compatibilidade com treinamento corporal.",
+          "Técnicas geralmente claras e de execução direta."
+        ],
+        "vantagens": [
+          "Excelente desempenho em combate corpo a corpo.",
+          "Menor dependência de sistemas complexos.",
+          "Pode escalar muito bem com treino físico."
+        ],
+        "limitacoes": [
+          "Pode ser previsível contra adversários estratégicos.",
+          "Tem menor afinidade natural com categorias distantes.",
+          "Exige aproximação quando a técnica não possui alcance."
+        ],
+        "estilo_de_combate": "Pressão direta, trocas físicas, golpes concentrados e resistência elevada.",
+        "resultado_no_teste_da_agua": "A quantidade de água aumenta.",
+        "afinidades": {
+          "mais_proximas": [
+            "transmutation",
+            "emission"
+          ],
+          "mais_distantes": [
+            "conjuration",
+            "manipulation",
+            "specialization"
+          ],
+          "observacao": "Reforço fica entre Transformação e Emissão no diagrama, o que favorece ataques físicos com variações de aura ou alcance moderado."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "gon-freecss",
+            "nome": "Gon Freecss",
+            "descricao": "Usa Reforço de forma direta no Jajanken: Rock, refletindo seu estilo frontal e sua enorme capacidade de crescimento."
+          },
+          {
+            "personagem_id": "uvogin",
+            "nome": "Uvogin",
+            "descricao": "Representa o extremo bruto do Reforço, com força física e aura voltadas para destruição direta."
+          },
+          {
+            "personagem_id": "isaac-netero",
+            "nome": "Isaac Netero",
+            "descricao": "Embora suas técnicas sejam sofisticadas, sua base de poder e disciplina física se apoia em domínio extraordinário de aura."
+          }
+        ]
+      },
+      {
+        "id": "transmutation",
+        "nome": "Transformação",
+        "nome_ingles": "Transmutation",
+        "imagem": "assets/imagens/nen/transmutation.png",
+        "descricao_curta": "Tipo que altera as propriedades da aura para imitar substâncias, sensações ou comportamentos.",
+        "descricao_completa": "Transformação permite mudar a qualidade da aura. Ela pode ganhar propriedades elásticas, cortantes, pegajosas, elétricas ou outras características imaginadas e treinadas pelo usuário. A categoria exige familiaridade intensa com aquilo que se deseja reproduzir.",
+        "perfil_comum": "Costuma se associar a usuários flexíveis, imprevisíveis, criativos e difíceis de ler.",
+        "caracteristicas": [
+          "Aura assume propriedades específicas.",
+          "Exige imaginação e experiência sensorial.",
+          "Combina bem com truques e adaptação."
+        ],
+        "vantagens": [
+          "Cria técnicas versáteis e difíceis de antecipar.",
+          "Permite controlar textura, forma e efeito da aura.",
+          "Funciona bem em estilos ágeis e enganosos."
+        ],
+        "limitacoes": [
+          "Requer treino consistente para manter propriedades estáveis.",
+          "Pode depender de condições corporais específicas.",
+          "Usuários sem referência sensorial clara tendem a criar efeitos fracos."
+        ],
+        "estilo_de_combate": "Mobilidade, blefe, golpes com propriedades especiais e controle de ritmo.",
+        "resultado_no_teste_da_agua": "O gosto da água muda.",
+        "afinidades": {
+          "mais_proximas": [
+            "enhancement",
+            "conjuration"
+          ],
+          "mais_distantes": [
+            "emission",
+            "manipulation",
+            "specialization"
+          ],
+          "observacao": "Transformação fica entre Reforço e Materialização, favorecendo técnicas que unem combate físico e propriedades artificiais da aura."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "killua-zoldyck",
+            "nome": "Killua Zoldyck",
+            "descricao": "Transforma aura em eletricidade após anos de resistência a choques e treinamento assassino."
+          },
+          {
+            "personagem_id": "hisoka-morow",
+            "nome": "Hisoka Morow",
+            "descricao": "Usa Bungee Gum para dar à aura propriedades elásticas e adesivas."
+          },
+          {
+            "personagem_id": "biscuit-krueger",
+            "nome": "Biscuit Krueger",
+            "descricao": "Demonstra controle refinado de aura e técnicas que escondem sua verdadeira capacidade."
+          }
+        ]
+      },
+      {
+        "id": "conjuration",
+        "nome": "Materialização",
+        "nome_ingles": "Conjuration",
+        "imagem": "assets/imagens/nen/conjuration.png",
+        "descricao_curta": "Tipo que cria objetos, criaturas ou estruturas de aura com forma e regras próprias.",
+        "descricao_completa": "Materialização permite criar algo concreto a partir de aura. Objetos materializados podem ter propriedades especiais e regras específicas, mas exigem visualização intensa, treino detalhado e coerência entre forma, função e condição.",
+        "perfil_comum": "Frequentemente combina com usuários cautelosos, analíticos, persistentes e orientados a detalhes.",
+        "caracteristicas": [
+          "Cria objetos ou entidades com funções definidas.",
+          "Pode incluir regras, gatilhos e limitações.",
+          "Depende muito de concentração e imagem mental."
+        ],
+        "vantagens": [
+          "Permite ferramentas especializadas.",
+          "Favorece estratégias com regras e armadilhas.",
+          "Pode criar habilidades difíceis de entender à primeira vista."
+        ],
+        "limitacoes": [
+          "Objetos mal concebidos tendem a ser fracos.",
+          "Requer treino de visualização e familiaridade.",
+          "Pode ser menos eficiente em força pura sem condições."
+        ],
+        "estilo_de_combate": "Controle de ferramentas, sistemas com regras, armadilhas e uso de objetos especiais.",
+        "resultado_no_teste_da_agua": "Impurezas ou partículas aparecem na água.",
+        "afinidades": {
+          "mais_proximas": [
+            "transmutation",
+            "specialization"
+          ],
+          "mais_distantes": [
+            "enhancement",
+            "emission",
+            "manipulation"
+          ],
+          "observacao": "Materialização fica próxima da Especialização, o que torna alguns usuários desse tipo mais propensos a habilidades incomuns."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "kurapika",
+            "nome": "Kurapika",
+            "descricao": "Materializa correntes com funções específicas e condições severas contra a Brigada Fantasma."
+          },
+          {
+            "personagem_id": "kite",
+            "nome": "Kite",
+            "descricao": "Usa Crazy Slots, uma habilidade materializada com aleatoriedade e armas variadas."
+          },
+          {
+            "personagem_id": "shizuku-murasaki",
+            "nome": "Shizuku Murasaki",
+            "descricao": "Materializa Blinky, um aspirador com regras próprias de sucção."
+          }
+        ]
+      },
+      {
+        "id": "emission",
+        "nome": "Emissão",
+        "nome_ingles": "Emission",
+        "imagem": "assets/imagens/nen/emission.png",
+        "descricao_curta": "Tipo que separa aura do corpo mantendo potência e controle à distância.",
+        "descricao_completa": "Emissão permite projetar aura para longe do corpo sem perder totalmente sua eficácia. É essencial para ataques à distância, teletransporte, disparos de aura e técnicas que precisam operar separadas do usuário.",
+        "perfil_comum": "Costuma se relacionar a usuários diretos, impacientes, expressivos e com grande energia ofensiva.",
+        "caracteristicas": [
+          "Mantém aura ativa longe do corpo.",
+          "Favorece projéteis, ondas e técnicas de alcance.",
+          "Combina bem com Reforço e Manipulação."
+        ],
+        "vantagens": [
+          "Permite atacar sem contato direto.",
+          "Controla espaço e distância.",
+          "Pode sustentar habilidades remotas."
+        ],
+        "limitacoes": [
+          "Quanto maior a distância, maior tende a ser a exigência de controle.",
+          "Pode gastar muita aura em disparos repetidos.",
+          "Usuários focados em alcance podem sofrer em combate fechado."
+        ],
+        "estilo_de_combate": "Ataques à distância, pressão de área, disparos e suporte remoto.",
+        "resultado_no_teste_da_agua": "A cor da água muda.",
+        "afinidades": {
+          "mais_proximas": [
+            "enhancement",
+            "manipulation"
+          ],
+          "mais_distantes": [
+            "transmutation",
+            "conjuration",
+            "specialization"
+          ],
+          "observacao": "Emissão fica entre Reforço e Manipulação, permitindo tanto golpes projetados quanto controle remoto de efeitos."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "leorio-paradinight",
+            "nome": "Leorio Paradinight",
+            "descricao": "Demonstra uma aplicação de Emissão em forma de golpe à distância."
+          },
+          {
+            "personagem_id": "razor",
+            "nome": "Razor",
+            "descricao": "Usa aura emitida com força enorme em Greed Island, especialmente em desafios de bola e projeções."
+          },
+          {
+            "personagem_id": "franklin-bordeau",
+            "nome": "Franklin Bordeau",
+            "descricao": "Dispara aura pelos dedos em rajadas de alto volume."
+          }
+        ]
+      },
+      {
+        "id": "manipulation",
+        "nome": "Manipulação",
+        "nome_ingles": "Manipulation",
+        "imagem": "assets/imagens/nen/manipulation.png",
+        "descricao_curta": "Tipo que controla pessoas, objetos, animais ou substâncias por meio de aura.",
+        "descricao_completa": "Manipulação permite impor comandos ou controle sobre alvos, desde objetos simples até corpos e mentes. A força desse tipo está em estabelecer uma condição de controle: uma agulha, antena, contato, comando ou meio físico pode transformar uma luta antes mesmo do primeiro golpe direto.",
+        "perfil_comum": "Frequentemente se associa a usuários racionais, dominadores, metódicos e persistentes.",
+        "caracteristicas": [
+          "Controla alvos mediante condição de ativação.",
+          "Pode encerrar conflitos rapidamente se o controle for estabelecido.",
+          "Exige regras claras para manter eficácia."
+        ],
+        "vantagens": [
+          "Pode neutralizar adversários sem confronto prolongado.",
+          "Permite uso de aliados, marionetes ou objetos controlados.",
+          "É forte em emboscadas e operações planejadas."
+        ],
+        "limitacoes": [
+          "Normalmente depende de cumprir uma condição inicial.",
+          "Pode falhar contra alvos que evitam contato ou removem o meio de controle.",
+          "Usuários podem ser vulneráveis se o controle for quebrado."
+        ],
+        "estilo_de_combate": "Controle, comando, pressão psicológica e vitória por condição.",
+        "resultado_no_teste_da_agua": "A folha se move.",
+        "afinidades": {
+          "mais_proximas": [
+            "emission",
+            "specialization"
+          ],
+          "mais_distantes": [
+            "enhancement",
+            "transmutation",
+            "conjuration"
+          ],
+          "observacao": "Manipulação fica próxima de Emissão e Especialização, o que favorece técnicas remotas e efeitos de controle incomuns."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "illumi-zoldyck",
+            "nome": "Illumi Zoldyck",
+            "descricao": "Usa agulhas para manipular corpos, aparência e comportamento, incluindo controle psicológico."
+          },
+          {
+            "personagem_id": "shalnark",
+            "nome": "Shalnark",
+            "descricao": "Controla alvos com Black Voice e pode usar a si mesmo em modo automático."
+          },
+          {
+            "personagem_id": "shaiapouf",
+            "nome": "Shaiapouf",
+            "descricao": "Combina manipulação, divisão corporal e controle psicológico a serviço do ideal do Rei."
+          }
+        ]
+      },
+      {
+        "id": "specialization",
+        "nome": "Especialização",
+        "nome_ingles": "Specialization",
+        "imagem": "assets/imagens/nen/specialization.png",
+        "descricao_curta": "Tipo reservado a habilidades que não se encaixam bem nas outras cinco categorias.",
+        "descricao_completa": "Especialização cobre efeitos únicos ou anômalos, como roubo de habilidades, profecias, alterações de estado e capacidades que desafiam classificação simples. É a categoria mais imprevisível e, por isso, costuma estar ligada a personagens com funções narrativas muito específicas.",
+        "perfil_comum": "Não possui um perfil universal confiável; costuma envolver individualidades extremas, condições raras ou estados especiais.",
+        "caracteristicas": [
+          "Habilidades únicas e difíceis de replicar.",
+          "Pode exigir condições complexas.",
+          "Frequentemente altera as regras normais de uma situação."
+        ],
+        "vantagens": [
+          "Produz efeitos altamente imprevisíveis.",
+          "Pode contornar vantagens convencionais.",
+          "É excelente para personagens com estratégias incomuns."
+        ],
+        "limitacoes": [
+          "Nem sempre oferece poder direto.",
+          "Pode depender de condições rígidas.",
+          "É difícil de treinar ou explicar por comparação simples."
+        ],
+        "estilo_de_combate": "Efeitos singulares, sistemas próprios, roubo, profecia, cura, controle especial ou transformação de regras.",
+        "resultado_no_teste_da_agua": "Ocorre um efeito diferente dos padrões das outras categorias.",
+        "afinidades": {
+          "mais_proximas": [
+            "conjuration",
+            "manipulation"
+          ],
+          "mais_distantes": [
+            "enhancement",
+            "transmutation",
+            "emission"
+          ],
+          "observacao": "Especialização aparece entre Materialização e Manipulação no diagrama, mas seu funcionamento pode variar muito conforme o usuário."
+        },
+        "personagens_exemplo": [
+          {
+            "personagem_id": "chrollo-lucilfer",
+            "nome": "Chrollo Lucilfer",
+            "descricao": "Usa Skill Hunter para roubar e utilizar habilidades de outras pessoas sob condições específicas."
+          },
+          {
+            "personagem_id": "neferpitou",
+            "nome": "Neferpitou",
+            "descricao": "Demonstra habilidades especializadas ligadas a reparo corporal, controle e instinto da Guarda Real."
+          },
+          {
+            "personagem_id": "kurapika",
+            "nome": "Kurapika",
+            "descricao": "Com os Olhos Escarlates ativos, acessa Emperor Time e muda sua relação com as categorias de Nen."
+          }
+        ]
+      }
+    ],
+    "habilidades_nen": [
+      {
+        "id": "jajanken",
+        "nome": "Jajanken",
+        "usuario_id": "gon-freecss",
+        "usuario_nome": "Gon Freecss",
+        "tipo_principal": "enhancement",
+        "tipos_secundarios": [
+          "emission",
+          "transmutation"
+        ],
+        "descricao": "Habilidade de Gon baseada em pedra, papel e tesoura, com variações para golpe físico, projétil e corte.",
+        "funcionamento": "Gon carrega aura enquanto anuncia a técnica. Rock concentra Reforço no punho, Paper emite aura à distância e Scissors transforma aura em lâmina cortante.",
+        "condicoes": "A preparação exige tempo, postura clara e concentração, o que aumenta impacto mas cria janelas de contra-ataque.",
+        "vantagens": [
+          "Grande poder de finalização.",
+          "Variações simples de entender e difíceis de ignorar.",
+          "Combina bem com a natureza direta de Gon."
+        ],
+        "fraquezas": [
+          "Carregamento previsível.",
+          "Alto gasto de aura.",
+          "Depende de leitura de distância e timing."
+        ],
+        "arcos_de_destaque": [
+          "heavens-arena",
+          "greed-island",
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "bungee-gum",
+        "nome": "Bungee Gum",
+        "usuario_id": "hisoka-morow",
+        "usuario_nome": "Hisoka Morow",
+        "tipo_principal": "transmutation",
+        "tipos_secundarios": [],
+        "descricao": "Técnica que dá à aura propriedades de borracha e goma, combinando elasticidade e aderência.",
+        "funcionamento": "Hisoka prende aura em alvos, superfícies ou partes do próprio corpo, puxando, desviando, colando ou reposicionando objetos e inimigos.",
+        "condicoes": "Depende de contato, fixação de aura e controle fino da elasticidade.",
+        "vantagens": [
+          "Extrema versatilidade tática.",
+          "Permite blefes e reposicionamento rápido.",
+          "Funciona tanto ofensiva quanto defensivamente."
+        ],
+        "fraquezas": [
+          "Pode ser estudada por oponentes atentos.",
+          "Exige criatividade constante para manter surpresa.",
+          "Perde eficiência se o ponto de fixação for neutralizado."
+        ],
+        "arcos_de_destaque": [
+          "hunter-exam",
+          "heavens-arena",
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "texture-surprise",
+        "nome": "Texture Surprise",
+        "usuario_id": "hisoka-morow",
+        "usuario_nome": "Hisoka Morow",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "transmutation"
+        ],
+        "descricao": "Técnica de disfarce visual que altera a aparência de superfícies finas.",
+        "funcionamento": "Hisoka cobre um material com aura para simular textura, cor e imagem, criando falsificações úteis para enganar observadores.",
+        "condicoes": "Funciona melhor em superfícies planas ou finas e depende de o alvo não investigar com atenção adequada.",
+        "vantagens": [
+          "Excelente para blefe e falsificação.",
+          "Baixo perfil em situações sociais ou estratégicas.",
+          "Combina com manipulação de informação."
+        ],
+        "fraquezas": [
+          "Não é uma técnica de dano direto.",
+          "Pode ser descoberta por inspeção cuidadosa.",
+          "Depende do contexto para ter impacto."
+        ],
+        "arcos_de_destaque": [
+          "heavens-arena",
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "skill-hunter",
+        "nome": "Skill Hunter",
+        "usuario_id": "chrollo-lucilfer",
+        "usuario_nome": "Chrollo Lucilfer",
+        "tipo_principal": "specialization",
+        "tipos_secundarios": [
+          "conjuration"
+        ],
+        "descricao": "Habilidade que permite a Chrollo roubar e usar técnicas de Nen de outras pessoas sob condições específicas.",
+        "funcionamento": "Chrollo materializa um livro conhecido como Bandit's Secret. Habilidades roubadas ficam registradas e podem ser usadas quando o livro está aberto na página correspondente.",
+        "condicoes": "Requer cumprir etapas de roubo de habilidade e manter as regras de uso do livro.",
+        "vantagens": [
+          "Grande variedade de recursos.",
+          "Permite adaptação a muitos cenários.",
+          "Reflete a liderança estratégica de Chrollo."
+        ],
+        "fraquezas": [
+          "Depende das condições de roubo.",
+          "O uso do livro cria exigências práticas em combate.",
+          "Perder acesso a uma habilidade roubada pode limitar planos."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "chain-jail",
+        "nome": "Chain Jail",
+        "usuario_id": "kurapika",
+        "usuario_nome": "Kurapika",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "manipulation"
+        ],
+        "descricao": "Corrente de Kurapika criada para prender membros da Brigada Fantasma e forçá-los a Zetsu.",
+        "funcionamento": "A corrente captura o alvo e restringe sua aura, neutralizando a capacidade de lutar com Nen enquanto a condição é válida.",
+        "condicoes": "Kurapika impõe a si mesmo a regra de usar Chain Jail apenas contra membros da Brigada Fantasma, com risco fatal se violar o juramento.",
+        "vantagens": [
+          "Neutralização extremamente forte contra o alvo definido.",
+          "Transforma desvantagem física em controle estratégico.",
+          "Aumenta muito o peso narrativo da vingança de Kurapika."
+        ],
+        "fraquezas": [
+          "Uso restrito a um grupo específico.",
+          "Risco severo caso a condição seja quebrada.",
+          "Depende de capturar o alvo."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "judgment-chain",
+        "nome": "Judgment Chain",
+        "usuario_id": "kurapika",
+        "usuario_nome": "Kurapika",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "manipulation",
+          "emission"
+        ],
+        "descricao": "Corrente que impõe uma regra ao alvo e pune a violação com consequência fatal.",
+        "funcionamento": "Kurapika crava uma corrente no coração do alvo e define uma condição. Se a regra for quebrada, a corrente executa a punição.",
+        "condicoes": "Exige aplicação direta da corrente e formulação clara da regra imposta.",
+        "vantagens": [
+          "Cria controle psicológico forte.",
+          "Pode impedir ações futuras sem manter contato.",
+          "É ideal para negociações de alto risco."
+        ],
+        "fraquezas": [
+          "Precisa ser implantada no alvo.",
+          "Depende de regras bem definidas.",
+          "Pode ser limitada por informação incompleta."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "emperor-time",
+        "nome": "Emperor Time",
+        "usuario_id": "kurapika",
+        "usuario_nome": "Kurapika",
+        "tipo_principal": "specialization",
+        "tipos_secundarios": [],
+        "descricao": "Estado ativado pelos Olhos Escarlates que permite a Kurapika usar categorias de Nen com eficiência extraordinária.",
+        "funcionamento": "Quando seus olhos ficam escarlates, Kurapika entra em Especialização e aumenta drasticamente sua eficiência nas demais categorias.",
+        "condicoes": "Depende do estado dos Olhos Escarlates e cobra um custo severo do usuário.",
+        "vantagens": [
+          "Expande enormemente a versatilidade de Kurapika.",
+          "Permite sustentar correntes com funções distintas.",
+          "Compensa a diferença contra inimigos fisicamente superiores."
+        ],
+        "fraquezas": [
+          "Causa desgaste extremo.",
+          "Está ligado a emoções intensas.",
+          "Seu custo torna o uso prolongado perigoso."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "godspeed",
+        "nome": "Godspeed",
+        "usuario_id": "killua-zoldyck",
+        "usuario_nome": "Killua Zoldyck",
+        "tipo_principal": "transmutation",
+        "tipos_secundarios": [
+          "enhancement"
+        ],
+        "descricao": "Técnica de Killua que usa aura elétrica para acelerar movimentos e respostas automáticas.",
+        "funcionamento": "Killua transforma aura em eletricidade e a usa para estimular o próprio corpo. A técnica inclui modos voltados a deslocamento rápido e reação quase automática.",
+        "condicoes": "Requer carga elétrica, resistência corporal a choques e controle preciso para não desperdiçar energia.",
+        "vantagens": [
+          "Velocidade excepcional.",
+          "Reações automáticas difíceis de acompanhar.",
+          "Excelente para resgate, evasão e ataque rápido."
+        ],
+        "fraquezas": [
+          "Duração limitada.",
+          "Depende de recarga e preparo.",
+          "Pode perder valor em combates prolongados."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant",
+          "election"
+        ]
+      },
+      {
+        "id": "crazy-slots",
+        "nome": "Crazy Slots",
+        "usuario_id": "kite",
+        "usuario_nome": "Kite",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [],
+        "descricao": "Habilidade que materializa armas aleatórias por meio de uma roleta falante.",
+        "funcionamento": "Kite ativa Crazy Slots e recebe uma arma determinada pelo sorteio. Cada número tem características próprias, exigindo adaptação imediata.",
+        "condicoes": "O usuário não escolhe livremente a arma sorteada, aceitando a limitação da aleatoriedade.",
+        "vantagens": [
+          "Cria opções ofensivas variadas.",
+          "Força adaptação tática.",
+          "Pode produzir armas muito fortes conforme o resultado."
+        ],
+        "fraquezas": [
+          "Aleatoriedade reduz controle.",
+          "Exige domínio de múltiplos estilos.",
+          "Pode gerar uma opção ruim para o cenário."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "hundred-type-guanyin-bodhisattva",
+        "nome": "100-Type Guanyin Bodhisattva",
+        "usuario_id": "isaac-netero",
+        "usuario_nome": "Isaac Netero",
+        "tipo_principal": "enhancement",
+        "tipos_secundarios": [
+          "emission",
+          "manipulation"
+        ],
+        "descricao": "Técnica suprema de Netero, formada por movimentos de oração e ataques velozes de uma manifestação gigantesca.",
+        "funcionamento": "Netero executa uma sequência de oração e golpe com velocidade absurda, fazendo a manifestação atacar em ângulos variados.",
+        "condicoes": "Depende da disciplina extrema de Netero, de seu ritual de movimento e de décadas de treinamento.",
+        "vantagens": [
+          "Velocidade e alcance extraordinários.",
+          "Pressão ofensiva contínua.",
+          "Dificulta aproximação mesmo para inimigos superiores."
+        ],
+        "fraquezas": [
+          "Consome grande quantidade de aura.",
+          "Pode ser estudada por um adversário de inteligência excepcional.",
+          "Depende do corpo e da execução precisa de Netero."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "deep-purple",
+        "nome": "Deep Purple",
+        "usuario_id": "morel-mackernasey",
+        "usuario_nome": "Morel Mackernasey",
+        "tipo_principal": "manipulation",
+        "tipos_secundarios": [
+          "emission",
+          "transmutation"
+        ],
+        "descricao": "Habilidade de Morel que usa fumaça controlada para criar formas, distrações e corpos falsos.",
+        "funcionamento": "Morel produz e manipula fumaça com auxílio de seu cachimbo, formando soldados, barreiras, cópias ou cobertura tática.",
+        "condicoes": "Depende de fumaça disponível, concentração e fôlego para manter múltiplas operações.",
+        "vantagens": [
+          "Excelente controle de campo.",
+          "Permite engano, defesa e suporte.",
+          "Funciona muito bem em missões estratégicas."
+        ],
+        "fraquezas": [
+          "Manter várias formas exige foco.",
+          "A perda do instrumento reduz opções.",
+          "Pode ser pressionada por inimigos muito rápidos."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "hide-and-seek",
+        "nome": "Hide and Seek",
+        "usuario_id": "knov",
+        "usuario_nome": "Knov",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "emission"
+        ],
+        "descricao": "Habilidade espacial de Knov que cria acessos a salas separadas para transporte, infiltração e suporte.",
+        "funcionamento": "Knov cria entradas e saídas conectadas a um espaço próprio, permitindo deslocamento estratégico de aliados e operações em áreas perigosas.",
+        "condicoes": "Depende de marcação e posicionamento adequado dos acessos.",
+        "vantagens": [
+          "Excelente para infiltração.",
+          "Permite evacuação e logística.",
+          "Cria vantagem estratégica sem combate direto."
+        ],
+        "fraquezas": [
+          "Requer preparo de rotas.",
+          "O usuário precisa se expor para instalar pontos.",
+          "Pressão psicológica pode comprometer a execução."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "hakoware",
+        "nome": "Hakoware",
+        "usuario_id": "knuckle-bine",
+        "usuario_nome": "Knuckle Bine",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "emission"
+        ],
+        "descricao": "Sistema de empréstimo de aura que transforma combate em contagem de dívida e juros.",
+        "funcionamento": "Knuckle empresta aura ao alvo e cria APR, que calcula juros. Se a dívida cresce demais, o alvo entra em estado de falência e fica impedido de usar Nen por um período.",
+        "condicoes": "Exige acertar o alvo e manter a lógica de empréstimo ativa durante a luta.",
+        "vantagens": [
+          "Vence por pressão acumulada.",
+          "Evita depender apenas de dano físico.",
+          "Força o adversário a lidar com tempo e matemática de combate."
+        ],
+        "fraquezas": [
+          "Demora para produzir resultado decisivo.",
+          "Pode ser arriscado contra inimigos muito agressivos.",
+          "Depende de Knuckle sobreviver ao processo."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "little-flower",
+        "nome": "Little Flower",
+        "usuario_id": "genthru",
+        "usuario_nome": "Genthru",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "transmutation"
+        ],
+        "descricao": "Habilidade explosiva de curto alcance usada por Genthru nas mãos.",
+        "funcionamento": "Genthru concentra aura nas mãos e produz explosões ao tocar o alvo, protegendo as próprias mãos com aura suficiente para suportar o impacto.",
+        "condicoes": "Requer proximidade e controle da defesa das mãos.",
+        "vantagens": [
+          "Muito perigosa em curta distância.",
+          "Pressiona oponente a evitar agarrões.",
+          "Combina com intimidação e controle de ritmo."
+        ],
+        "fraquezas": [
+          "Alcance limitado.",
+          "Exige defesa simultânea para não ferir o usuário.",
+          "Pode ser contrariada por planejamento e leitura."
+        ],
+        "arcos_de_destaque": [
+          "greed-island"
+        ]
+      },
+      {
+        "id": "countdown",
+        "nome": "Countdown",
+        "usuario_id": "genthru",
+        "usuario_nome": "Genthru",
+        "tipo_principal": "conjuration",
+        "tipos_secundarios": [
+          "emission",
+          "manipulation"
+        ],
+        "descricao": "Habilidade condicional de Genthru que instala bombas de aura em alvos após cumprir regras específicas.",
+        "funcionamento": "Genthru revela informações sobre sua habilidade e ativa bombas nos alvos marcados. A contagem e a desativação seguem condições próprias.",
+        "condicoes": "Depende de contato, explicação da habilidade e cumprimento dos gatilhos definidos.",
+        "vantagens": [
+          "Cria ameaça psicológica de grande escala.",
+          "Permite controle de grupos.",
+          "Fica mais forte justamente por expor regras."
+        ],
+        "fraquezas": [
+          "Condições precisam ser cumpridas.",
+          "Alvos informados podem procurar contramedidas.",
+          "Exige planejamento prévio."
+        ],
+        "arcos_de_destaque": [
+          "greed-island"
+        ]
+      },
+      {
+        "id": "doctor-blythe",
+        "nome": "Doctor Blythe",
+        "usuario_id": "neferpitou",
+        "usuario_nome": "Neferpitou",
+        "tipo_principal": "specialization",
+        "tipos_secundarios": [
+          "conjuration"
+        ],
+        "descricao": "Habilidade de Neferpitou voltada a reparo corporal e procedimentos complexos.",
+        "funcionamento": "Neferpitou manifesta uma estrutura semelhante a uma entidade médica capaz de operar corpos com precisão impressionante.",
+        "condicoes": "Exige foco no procedimento e limita mobilidade durante o uso.",
+        "vantagens": [
+          "Permite reparo físico avançado.",
+          "Demonstra controle técnico raro.",
+          "Tem enorme importância narrativa no conflito de Gon."
+        ],
+        "fraquezas": [
+          "Não é voltada a combate direto durante a execução.",
+          "Pode prender o usuário a uma tarefa.",
+          "Depende de tempo e concentração."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "terpsichora",
+        "nome": "Terpsichora",
+        "usuario_id": "neferpitou",
+        "usuario_nome": "Neferpitou",
+        "tipo_principal": "specialization",
+        "tipos_secundarios": [
+          "manipulation"
+        ],
+        "descricao": "Habilidade de combate de Neferpitou que intensifica o corpo como se fosse controlado por uma marionete de batalha.",
+        "funcionamento": "A técnica impulsiona movimentos, reflexos e ferocidade, permitindo ataques extremamente rápidos e violentos.",
+        "condicoes": "Depende da ativação da manifestação e do direcionamento agressivo da aura.",
+        "vantagens": [
+          "Aumenta ameaça física imediata.",
+          "Combina instinto predatório e técnica.",
+          "É extremamente perigosa em curta distância."
+        ],
+        "fraquezas": [
+          "Foco ofensivo pode reduzir flexibilidade.",
+          "Não resolve conflitos de informação por si só.",
+          "Depende do estado corporal do usuário."
+        ],
+        "arcos_de_destaque": [
+          "chimera-ant"
+        ]
+      },
+      {
+        "id": "lovely-ghostwriter",
+        "nome": "Lovely Ghostwriter",
+        "usuario_id": "neon-nostrade",
+        "usuario_nome": "Neon Nostrade",
+        "tipo_principal": "specialization",
+        "tipos_secundarios": [],
+        "descricao": "Habilidade de profecia que escreve previsões em formato poético sem que Neon compreenda conscientemente o conteúdo.",
+        "funcionamento": "A mão de Neon escreve automaticamente previsões relacionadas ao alvo, produzindo mensagens sobre acontecimentos futuros.",
+        "condicoes": "Requer informações do alvo e funciona como uma leitura específica, não como controle direto dos eventos.",
+        "vantagens": [
+          "Fornece vantagem estratégica poderosa.",
+          "Influencia decisões de grupos inteiros.",
+          "Tem grande valor político e criminal em Yorknew."
+        ],
+        "fraquezas": [
+          "Não é uma técnica de combate.",
+          "As previsões precisam ser interpretadas.",
+          "O usuário pode não entender a importância do que produz."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city"
+        ]
+      },
+      {
+        "id": "black-voice",
+        "nome": "Black Voice",
+        "usuario_id": "shalnark",
+        "usuario_nome": "Shalnark",
+        "tipo_principal": "manipulation",
+        "tipos_secundarios": [
+          "emission"
+        ],
+        "descricao": "Habilidade de Shalnark que controla alvos por meio de antenas e comandos de celular.",
+        "funcionamento": "Ao inserir uma antena no alvo, Shalnark assume controle de seus movimentos. Ele também pode usar um modo automático em si mesmo para aumentar desempenho.",
+        "condicoes": "Depende de inserir a antena e manter o sistema de comando funcionando.",
+        "vantagens": [
+          "Controle direto de inimigos.",
+          "Uso tático de corpos controlados.",
+          "Modo automático oferece aumento emergencial de combate."
+        ],
+        "fraquezas": [
+          "Precisa acertar a antena.",
+          "Perder o dispositivo compromete a técnica.",
+          "O modo automático cobra desgaste severo."
+        ],
+        "arcos_de_destaque": [
+          "yorknew-city",
+          "chimera-ant"
+        ]
+      }
+    ],
+    "condicoes_e_restricoes": {
+      "descricao": "Condições, limitações e juramentos são regras que o usuário impõe à própria habilidade. Quanto mais real for o risco e mais específica for a limitação, maior pode ser o retorno em poder, precisão ou alcance. O sistema não recompensa frases vazias: a restrição precisa afetar decisões e criar consequências concretas.",
+      "principios": [
+        "Uma condição forte aumenta poder porque reduz liberdade de uso.",
+        "Um juramento só tem peso quando o usuário aceita uma punição proporcional.",
+        "Limitações bem escolhidas tornam uma habilidade mais eficiente dentro de um cenário específico.",
+        "Restrições ruins podem deixar o usuário previsível ou vulnerável.",
+        "O ganho de poder depende de convicção, risco e coerência com a habilidade."
+      ],
+      "exemplos": [
+        {
+          "personagem_id": "kurapika",
+          "exemplo": "Chain Jail",
+          "descricao": "Kurapika restringe o uso de Chain Jail aos membros da Brigada Fantasma e aceita uma punição fatal se quebrar essa regra. A limitação extrema torna a corrente poderosa o bastante para neutralizar alvos fisicamente superiores."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "exemplo": "Transformação adulta",
+          "descricao": "No arco das Formigas Quimera, Gon sacrifica seu futuro e potencial para obter poder imediato contra Neferpitou. É um exemplo extremo de troca: poder avassalador em troca de consequências devastadoras."
+        },
+        {
+          "personagem_id": "genthru",
+          "exemplo": "Countdown",
+          "descricao": "Genthru fortalece sua habilidade ao revelar regras e cumprir condições específicas antes da detonação. A explicação, que normalmente seria uma desvantagem, vira parte do mecanismo que sustenta o poder."
+        },
+        {
+          "personagem_id": "chrollo-lucilfer",
+          "exemplo": "Skill Hunter",
+          "descricao": "Chrollo depende de condições para roubar e usar habilidades alheias. O custo operacional do livro equilibra a enorme versatilidade da técnica."
+        }
+      ]
+    },
+    "diagrama_afinidade": {
+      "imagem": "assets/imagens/nen/diagrama-afinidade.png",
+      "descricao": "O diagrama de afinidade organiza os seis tipos de Nen em um círculo. Categorias vizinhas tendem a ser mais fáceis de usar em conjunto, enquanto categorias distantes exigem mais esforço e costumam ter eficiência menor. O diagrama não impede habilidades híbridas, mas mostra por que usuários rendem melhor quando constroem técnicas próximas de sua afinidade natural.",
+      "ordem_circular": [
+        "enhancement",
+        "transmutation",
+        "conjuration",
+        "specialization",
+        "manipulation",
+        "emission"
+      ],
+      "regras": [
+        "A afinidade natural indica a categoria em que o usuário tende a ter maior eficiência.",
+        "Tipos vizinhos no diagrama costumam ser mais compatíveis.",
+        "Tipos distantes podem ser usados, mas normalmente exigem mais treino e entregam menos eficiência.",
+        "Especialização é uma exceção frequente, pois envolve efeitos que não se encaixam bem nas demais categorias.",
+        "Habilidades complexas podem combinar várias categorias, desde que o usuário aceite custos, restrições ou perda de eficiência."
+      ]
+    },
+    "personagens_exemplo": [
+      {
+        "personagem_id": "gon-freecss",
+        "nome": "Gon Freecss",
+        "tipo_id": "enhancement",
+        "tipo_nome": "Reforço",
+        "habilidade_principal": "Jajanken",
+        "descricao": "Exemplo claro de usuário de Reforço, com técnica direta, alto crescimento físico e forte relação entre emoção e aura."
+      },
+      {
+        "personagem_id": "killua-zoldyck",
+        "nome": "Killua Zoldyck",
+        "tipo_id": "transmutation",
+        "tipo_nome": "Transformação",
+        "habilidade_principal": "Godspeed",
+        "descricao": "Transforma aura em eletricidade, unindo treinamento assassino, resistência corporal e velocidade extrema."
+      },
+      {
+        "personagem_id": "kurapika",
+        "nome": "Kurapika",
+        "tipo_id": "conjuration",
+        "tipo_nome": "Materialização",
+        "habilidade_principal": "Correntes e Emperor Time",
+        "descricao": "Materializa correntes com funções específicas e acessa Especialização quando seus Olhos Escarlates estão ativos."
+      },
+      {
+        "personagem_id": "leorio-paradinight",
+        "nome": "Leorio Paradinight",
+        "tipo_id": "emission",
+        "tipo_nome": "Emissão",
+        "habilidade_principal": "Soco à distância",
+        "descricao": "Demonstra Emissão ao projetar impacto através de uma superfície, antecipando uso médico e utilitário de sua aura."
+      },
+      {
+        "personagem_id": "hisoka-morow",
+        "nome": "Hisoka Morow",
+        "tipo_id": "transmutation",
+        "tipo_nome": "Transformação",
+        "habilidade_principal": "Bungee Gum",
+        "descricao": "Usa uma técnica simples em conceito, mas extremamente versátil pela criatividade tática."
+      },
+      {
+        "personagem_id": "chrollo-lucilfer",
+        "nome": "Chrollo Lucilfer",
+        "tipo_id": "specialization",
+        "tipo_nome": "Especialização",
+        "habilidade_principal": "Skill Hunter",
+        "descricao": "Especialista capaz de roubar habilidades e montar estratégias a partir de repertório acumulado."
+      },
+      {
+        "personagem_id": "isaac-netero",
+        "nome": "Isaac Netero",
+        "tipo_id": "enhancement",
+        "tipo_nome": "Reforço",
+        "habilidade_principal": "100-Type Guanyin Bodhisattva",
+        "descricao": "Mostra como disciplina, repetição e técnica refinada podem levar o Nen a um nível lendário."
+      },
+      {
+        "personagem_id": "morel-mackernasey",
+        "nome": "Morel Mackernasey",
+        "tipo_id": "manipulation",
+        "tipo_nome": "Manipulação",
+        "habilidade_principal": "Deep Purple",
+        "descricao": "Usa fumaça manipulada para controle de campo, distração, suporte e estratégia."
+      },
+      {
+        "personagem_id": "knov",
+        "nome": "Knov",
+        "tipo_id": "conjuration",
+        "tipo_nome": "Materialização",
+        "habilidade_principal": "Hide and Seek",
+        "descricao": "Cria uma habilidade espacial que torna logística e infiltração tão importantes quanto combate direto."
+      },
+      {
+        "personagem_id": "knuckle-bine",
+        "nome": "Knuckle Bine",
+        "tipo_id": "conjuration",
+        "tipo_nome": "Materialização",
+        "habilidade_principal": "Hakoware",
+        "descricao": "Transforma uma luta em sistema de dívida de aura, exemplificando como regras podem criar pressão estratégica."
+      },
+      {
+        "personagem_id": "genthru",
+        "nome": "Genthru",
+        "tipo_id": "conjuration",
+        "tipo_nome": "Materialização",
+        "habilidade_principal": "Countdown",
+        "descricao": "Usa condições explícitas para instalar bombas de Nen e controlar adversários em Greed Island."
+      },
+      {
+        "personagem_id": "razor",
+        "nome": "Razor",
+        "tipo_id": "emission",
+        "tipo_nome": "Emissão",
+        "habilidade_principal": "Aura emitida em jogo e combate",
+        "descricao": "Mostra potência de Emissão em desafios de Greed Island, mantendo pressão mesmo à distância."
+      },
+      {
+        "personagem_id": "illumi-zoldyck",
+        "nome": "Illumi Zoldyck",
+        "tipo_id": "manipulation",
+        "tipo_nome": "Manipulação",
+        "habilidade_principal": "Agulhas de manipulação",
+        "descricao": "Controla corpos e comportamento com precisão fria, tornando Nen uma ferramenta de domínio psicológico."
+      },
+      {
+        "personagem_id": "shalnark",
+        "nome": "Shalnark",
+        "tipo_id": "manipulation",
+        "tipo_nome": "Manipulação",
+        "habilidade_principal": "Black Voice",
+        "descricao": "Usa dispositivos para controlar alvos e converter tecnologia simples em condição de Nen."
+      },
+      {
+        "personagem_id": "neferpitou",
+        "nome": "Neferpitou",
+        "tipo_id": "specialization",
+        "tipo_nome": "Especialização",
+        "habilidade_principal": "Doctor Blythe e Terpsichora",
+        "descricao": "Combina instinto monstruoso, reparo corporal e ameaça de combate em habilidades de difícil classificação simples."
+      }
+    ],
+    "glossario": [
+      {
+        "termo": "Aura",
+        "definicao": "Energia vital emitida pelos seres vivos e matéria-prima de todas as técnicas de Nen."
+      },
+      {
+        "termo": "Poros de aura",
+        "definicao": "Pontos do corpo por onde a aura flui para fora. Usuários de Nen aprendem a abri-los, fechá-los e controlá-los."
+      },
+      {
+        "termo": "Usuário de Nen",
+        "definicao": "Pessoa capaz de perceber e controlar aura conscientemente, usando técnicas básicas, avançadas ou habilidades pessoais."
+      },
+      {
+        "termo": "Hatsu",
+        "definicao": "Expressão individual da aura, responsável pelas habilidades próprias de cada usuário."
+      },
+      {
+        "termo": "Ren",
+        "definicao": "Técnica que expande a quantidade e intensidade da aura liberada."
+      },
+      {
+        "termo": "Zetsu",
+        "definicao": "Técnica que fecha o fluxo de aura, escondendo presença e facilitando recuperação, mas removendo defesa de aura."
+      },
+      {
+        "termo": "Restrição",
+        "definicao": "Limitação voluntária colocada sobre uma habilidade para aumentar sua eficiência ou poder em troca de menor liberdade."
+      },
+      {
+        "termo": "Juramento",
+        "definicao": "Compromisso severo associado a uma condição. Quanto maior o risco aceito, maior pode ser o poder obtido."
+      },
+      {
+        "termo": "Afinidade",
+        "definicao": "Categoria de Nen em que o usuário possui maior compatibilidade natural."
+      },
+      {
+        "termo": "Especialização",
+        "definicao": "Categoria de Nen para habilidades únicas ou anômalas que não se encaixam bem nas outras cinco categorias."
+      },
+      {
+        "termo": "En",
+        "definicao": "Técnica avançada que expande aura ao redor do usuário para detectar presenças dentro de uma área."
+      },
+      {
+        "termo": "Gyo",
+        "definicao": "Concentração de aura em uma parte do corpo, muito usada nos olhos para enxergar aura oculta."
+      },
+      {
+        "termo": "Ko",
+        "definicao": "Concentração quase total de aura em um único ponto, gerando alto poder e deixando o restante do corpo vulnerável."
+      }
+    ],
+    "observacoes": [
+      {
+        "titulo": "Classificações não confirmadas",
+        "descricao": "Nem todo personagem possui tipo de Nen confirmado de forma explícita. Quando a obra não confirma, a wiki deve evitar afirmar como fato."
+      },
+      {
+        "titulo": "Habilidades híbridas",
+        "descricao": "Nem toda habilidade se encaixa em apenas uma categoria. Muitas técnicas combinam tipo principal, categorias auxiliares e condições específicas."
+      },
+      {
+        "titulo": "Risco e poder",
+        "descricao": "Condições podem aumentar o poder de uma técnica, mas também criam riscos reais, previsibilidade e custos emocionais ou físicos."
+      },
+      {
+        "titulo": "Sistema psicológico",
+        "descricao": "Nen mistura técnica, personalidade e estratégia. A forma da habilidade costuma revelar como o usuário pensa, deseja e aceita riscos."
+      },
+      {
+        "titulo": "Foco da página",
+        "descricao": "Esta página é focada no anime Hunter x Hunter (2011), mas inclui conceitos gerais do sistema de Nen quando eles são essenciais para entender a obra."
+      },
+      {
+        "titulo": "Conteúdo posterior ao anime",
+        "descricao": "Informações aprofundadas de eventos posteriores ao anime de 2011 devem ser tratadas em páginas separadas ou marcadas como conteúdo posterior ao anime."
+      }
+    ]
+  }
+}

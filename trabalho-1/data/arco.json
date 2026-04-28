@@ -1,0 +1,1922 @@
+{
+  "arcos": [
+    {
+      "id": "hunter-exam",
+      "nome": "Exame Hunter",
+      "nome_original": "Hunter Exam arc",
+      "ordem": 1,
+      "imagem": "assets/imagens/arcos/hunter-exam.jpg",
+      "episodios_2011": "1–26",
+      "descricao_curta": "O arco inicial da adaptação de 2011 apresenta Gon, seus primeiros companheiros e o mundo perigoso por trás da licença Hunter.",
+      "descricao_completa": "O Exame Hunter abre Hunter x Hunter (2011) como uma seleção extrema para pessoas capazes de perseguir o desconhecido. Gon deixa a Ilha da Baleia para seguir os passos de Ging e, antes mesmo de entender a escala real desse mundo, conhece Kurapika, Leorio e Killua, formando o núcleo emocional que sustenta a primeira fase da obra. A jornada alterna testes físicos, mentais, morais e de sobrevivência, deixando claro que a licença Hunter não é apenas um documento de prestígio, mas uma autorização para entrar em ambientes onde força, julgamento e instinto decidem quem continua vivo.\n\nO arco também apresenta ameaças e tensões que permanecem importantes depois do exame. Hisoka surge como um competidor predatório e imprevisível, Illumi revela a violência psicológica exercida sobre Killua. Ao final, Gon conquista a licença Hunter, mas a vitória vem acompanhada de uma prioridade imediata: buscar Killua na propriedade Zoldyck e impedir que a amizade recém-formada seja interrompida pela pressão familiar.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Gon parte da Ilha da Baleia motivado pela existência de Ging Freecss e pela vontade de entender por que seu pai escolheu ser Hunter. A viagem já funciona como filtro: tempestades, decisões difíceis e encontros inesperados mostram que o exame começa antes do local oficial."
+        },
+        {
+          "titulo": "Formação do grupo",
+          "texto": "Durante as primeiras etapas, Gon se aproxima de Kurapika e Leorio, que têm objetivos muito diferentes, mas compartilham determinação. Killua entra no grupo como um candidato de talento absurdo, aparentemente despreocupado, mas com sinais de uma origem muito mais sombria."
+        },
+        {
+          "titulo": "Testes do exame",
+          "texto": "As fases conduzidas por examinadores como Satotz e Menchi avaliam resistência, adaptação, raciocínio e equilíbrio emocional. A competição não recompensa apenas força bruta: candidatos precisam ler ambientes hostis, negociar riscos e lidar com regras que mudam rapidamente."
+        },
+        {
+          "titulo": "Ameaças internas",
+          "texto": "Hisoka transforma partes do exame em uma zona de caça e estabelece um padrão de perigo pessoal para Gon. Illumi se infiltra no processo e atinge Killua no ponto mais vulnerável: o condicionamento psicológico imposto pela família."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Na fase final, os confrontos expõem mais do que habilidade. Gon vence pela persistência e pela recusa em desistir, enquanto Killua, pressionado por Illumi, perde o controle e abandona o exame antes de conquistar sua licença."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Gon se torna Hunter licenciado, mas a conclusão emocional do arco fica suspensa. Em vez de seguir cada um para seu objetivo imediatamente, Gon, Kurapika e Leorio decidem ir até a mansão Zoldyck para trazer Killua de volta."
+        }
+      ],
+      "objetivo_narrativo": "Estabelecer o mundo dos Hunters, apresentar o grupo principal, introduzir antagonistas recorrentes e demonstrar que a obra combina aventura, estratégia, perigo psicológico e dilemas morais desde o primeiro arco.",
+      "temas": [
+        "iniciação",
+        "amizade",
+        "sobrevivência",
+        "ambição",
+        "moralidade ambígua",
+        "identidade"
+      ],
+      "locais": [
+        {
+          "nome": "Ilha da Baleia",
+          "descricao": "Ponto de origem de Gon e símbolo da vida simples que ele abandona para procurar Ging."
+        },
+        {
+          "nome": "Navio rumo ao exame",
+          "descricao": "Primeiro filtro prático da jornada, onde resistência e julgamento começam a separar candidatos comuns de possíveis Hunters."
+        },
+        {
+          "nome": "Túnel subterrâneo",
+          "descricao": "Local de uma prova de resistência conduzida por Satotz, marcada por exaustão física e ritmo implacável."
+        },
+        {
+          "nome": "Pântano Numere",
+          "descricao": "Ambiente hostil usado para testar percepção, cautela e capacidade de sobreviver a ameaças naturais e enganosas."
+        },
+        {
+          "nome": "Torre Trick",
+          "descricao": "Estrutura de armadilhas e escolhas coletivas que força os candidatos a administrar tempo, confiança e risco."
+        },
+        {
+          "nome": "Arena da fase final",
+          "descricao": "Espaço onde os últimos candidatos são avaliados por confrontos diretos e pressão psicológica."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Protagonista",
+          "importancia_no_arco": "Inicia a jornada para se tornar Hunter, cria vínculos centrais e demonstra uma resistência emocional incomum."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Candidato prodígio",
+          "importancia_no_arco": "Apresenta talento assassino excepcional e começa a enxergar em Gon uma alternativa ao destino imposto pela família."
+        },
+        {
+          "personagem_id": "kurapika",
+          "papel": "Candidato e futuro aliado",
+          "importancia_no_arco": "Revela disciplina, inteligência e um objetivo de vingança ligado ao massacre do clã Kurta."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "papel": "Candidato e futuro aliado",
+          "importancia_no_arco": "Funciona como força humana e direta do grupo, revelando que seu interesse por dinheiro está ligado ao sonho de estudar medicina."
+        },
+        {
+          "personagem_id": "hanzo",
+          "papel": "Candidato avançado",
+          "importancia_no_arco": "Serve como parâmetro de experiência e força física durante a etapa final do exame."
+        },
+        {
+          "personagem_id": "pokkle",
+          "papel": "Candidato",
+          "importancia_no_arco": "Representa candidatos competentes que sobrevivem às fases mais perigosas, ampliando a sensação de competição real."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "satotz",
+          "papel": "Examinador",
+          "importancia_no_arco": "Conduz uma das primeiras grandes provas e estabelece o padrão de resistência exigido pelo exame."
+        },
+        {
+          "personagem_id": "menchi",
+          "papel": "Examinadora",
+          "importancia_no_arco": "Expõe que o exame também valoriza critérios técnicos e subjetivos fora do combate direto."
+        },
+        {
+          "personagem_id": "isaac-netero",
+          "papel": "Presidente da Associação Hunter",
+          "importancia_no_arco": "Intervém quando necessário e observa os candidatos com interesse estratégico, especialmente Gon e Killua."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Ameaça imprevisível",
+          "importancia_no_arco": "Transforma o exame em terreno de caça e estabelece uma rivalidade perigosa com Gon."
+        },
+        {
+          "personagem_id": "illumi-zoldyck",
+          "papel": "Manipulador psicológico",
+          "importancia_no_arco": "Pressiona Killua até quebrar sua autonomia, revelando a força do controle familiar Zoldyck."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Partida da Ilha da Baleia",
+          "descricao": "Gon deixa sua casa para seguir os passos de Ging e descobrir o significado de ser Hunter.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "ging-freecss"
+          ]
+        },
+        {
+          "titulo": "Encontro dos protagonistas",
+          "descricao": "Gon conhece Kurapika, Leorio e Killua, formando relações que se tornam a base emocional da série.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "kurapika",
+            "leorio-paradinight",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Primeiras fases do exame",
+          "descricao": "Satotz e Menchi conduzem etapas que testam resistência, adaptação e leitura de situação.",
+          "personagens_envolvidos": [
+            "satotz",
+            "menchi",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Hisoka domina o ambiente",
+          "descricao": "Hisoka se impõe como ameaça letal, selecionando quem considera promissor e eliminando candidatos sem hesitação.",
+          "personagens_envolvidos": [
+            "hisoka-morow",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Pressão de Illumi sobre Killua",
+          "descricao": "Illumi confronta Killua e usa o medo internalizado pela criação Zoldyck para forçá-lo a abandonar o exame.",
+          "personagens_envolvidos": [
+            "illumi-zoldyck",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Gon recebe a licença Hunter",
+          "descricao": "Gon conclui o exame e obtém a licença, mas decide priorizar a busca por Killua antes de avançar na procura por Ging.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "kurapika",
+            "leorio-paradinight"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Resistência contra eliminação",
+          "descricao": "Os candidatos precisam suportar provas longas, ambientes hostis e regras inesperadas sem perder a capacidade de decisão.",
+          "tipo": "físico"
+        },
+        {
+          "titulo": "Amizade contra competição",
+          "descricao": "Gon, Kurapika, Leorio e Killua criam laços em um processo desenhado para separar, eliminar e colocar candidatos uns contra os outros.",
+          "tipo": "moral"
+        },
+        {
+          "titulo": "Instinto assassino contra autonomia",
+          "descricao": "Killua tenta agir como uma criança livre, mas a influência de Illumi revela que sua educação ainda controla suas respostas emocionais.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Caça de Hisoka",
+          "descricao": "Hisoka avalia candidatos como presas ou investimentos futuros, criando um risco que não pode ser resolvido apenas por regras oficiais.",
+          "tipo": "estratégico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Sai de casa com uma meta simples e termina o arco entendendo que encontrar Ging exige força, aliados e decisões difíceis."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Passa de candidato isolado e treinado para matar a alguém que deseja amizade, mas ainda não consegue romper totalmente com Illumi."
+        },
+        {
+          "personagem_id": "kurapika",
+          "evolucao": "Mostra autocontrole e inteligência, enquanto sua motivação contra a Brigada Fantasma ganha peso narrativo para arcos futuros."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "evolucao": "Deixa de parecer movido apenas por interesse financeiro e revela uma motivação ética ligada à medicina."
+        }
+      ],
+      "impacto_na_historia": "O arco define a estrutura inicial da série, apresenta o sistema social dos Hunters, estabelece o grupo principal e cria conflitos que retornam em Yorknew, na Família Zoldyck e na rivalidade entre Gon e Hisoka.",
+      "gancho_para_proximo_arco": "Com Killua levado de volta para casa após a pressão de Illumi, Gon, Kurapika e Leorio seguem para a propriedade Zoldyck para reencontrá-lo.",
+      "nivel_importancia": "Muito alto"
+    },
+    {
+      "id": "zoldyck-family",
+      "nome": "Família Zoldyck",
+      "nome_original": "Zoldyck Family arc",
+      "ordem": 2,
+      "imagem": "assets/imagens/arcos/zoldyck-family.jpg",
+      "episodios_2011": "22–26 aproximadamente, parte final do Exame Hunter / transição",
+      "descricao_curta": "Gon, Kurapika e Leorio vão até a propriedade Zoldyck para buscar Killua e confrontam a lógica opressiva de sua família.",
+      "descricao_completa": "O arco da Família Zoldyck funciona como uma transição curta, mas essencial, entre o Exame Hunter e a Torre Celestial. Depois de Killua abandonar o exame sob influência de Illumi, Gon se recusa a aceitar que o amigo tenha escolhido desaparecer por vontade própria. Ao lado de Kurapika e Leorio, ele vai até a propriedade Zoldyck e entra em contato com uma família estruturada em disciplina assassina, isolamento e controle emocional.\n\nA importância do arco está menos em grandes batalhas e mais na exposição da origem de Killua. A mansão, os portões, os membros da família e o tratamento dado ao herdeiro prodígio mostram que sua frieza não nasceu de indiferença, mas de condicionamento. Quando Killua decide sair com os amigos, a história confirma que a amizade com Gon começa a abrir uma ruptura real em sua identidade.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Gon, Kurapika e Leorio partem para a propriedade Zoldyck após o fim do Exame Hunter. A decisão de Gon é direta: ele não aceita que Killua tenha sido reduzido à vontade de Illumi."
+        },
+        {
+          "titulo": "Entrada na propriedade",
+          "texto": "A chegada ao território Zoldyck apresenta uma família tratada quase como instituição de poder. O espaço físico reforça distância, vigilância e a ideia de que entrar naquele mundo exige força e persistência."
+        },
+        {
+          "titulo": "Estrutura familiar",
+          "texto": "A presença de Silva, Zeno, Kikyo, Milluki e Kalluto revela diferentes faces do sistema Zoldyck. Cada um, à sua maneira, representa uma pressão sobre Killua: dever, tradição, posse, treinamento e continuidade da linhagem."
+        },
+        {
+          "titulo": "Conflito psicológico",
+          "texto": "Illumi permanece como principal sombra emocional do arco, mesmo quando não domina todas as cenas. O problema central não é apenas retirar Killua da mansão, mas provar que ele pode escolher outro caminho."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Gon insiste em ver Killua e transforma uma visita impossível em uma demonstração de lealdade concreta. A postura do grupo pressiona a família a reconhecer que Killua já possui vínculos fora do controle doméstico."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Killua escolhe sair com os amigos. O arco encerra a primeira tentativa de ruptura com a família e conduz Gon e Killua à Torre Celestial, onde eles buscarão treino e dinheiro."
+        }
+      ],
+      "objetivo_narrativo": "Aprofundar a origem de Killua, mostrar a Família Zoldyck como estrutura de poder e preparar a dupla Gon e Killua para um arco focado em treinamento.",
+      "temas": [
+        "família opressiva",
+        "autonomia",
+        "amizade",
+        "herança violenta",
+        "controle psicológico",
+        "ruptura de destino"
+      ],
+      "locais": [
+        {
+          "nome": "Montanha Kukuroo",
+          "descricao": "Região associada à residência dos Zoldyck, tratada como território perigoso e isolado."
+        },
+        {
+          "nome": "Portões da propriedade Zoldyck",
+          "descricao": "Barreira física e simbólica que separa o mundo comum da rotina brutal da família."
+        },
+        {
+          "nome": "Mansão Zoldyck",
+          "descricao": "Centro da estrutura familiar, onde autoridade, treinamento e vigilância moldam a vida de Killua."
+        },
+        {
+          "nome": "Área de treinamento",
+          "descricao": "Espaço que reforça a preparação física extrema associada à criação de assassinos."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Protagonista",
+          "importancia_no_arco": "Lidera a decisão de buscar Killua e transforma amizade em ação concreta."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Centro emocional",
+          "importancia_no_arco": "Tem sua origem aprofundada e precisa decidir se continuará preso ao papel de herdeiro assassino."
+        },
+        {
+          "personagem_id": "kurapika",
+          "papel": "Aliado do resgate",
+          "importancia_no_arco": "Acompanha Gon com postura racional e reforça a união formada durante o exame."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "papel": "Aliado do resgate",
+          "importancia_no_arco": "Apoia a ida até a propriedade e representa a lealdade emocional do grupo."
+        },
+        {
+          "personagem_id": "kalluto-zoldyck",
+          "papel": "Membro da família",
+          "importancia_no_arco": "Reforça a dimensão familiar da casa Zoldyck e a ideia de uma linhagem treinada desde cedo."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "silva-zoldyck",
+          "papel": "Autoridade familiar",
+          "importancia_no_arco": "Reconhece a escolha momentânea de Killua e permite que ele saia, ainda que sob a lógica calculista da família."
+        },
+        {
+          "personagem_id": "zeno-zoldyck",
+          "papel": "Patriarca",
+          "importancia_no_arco": "Representa a tradição profissional dos Zoldyck e dá contexto ao peso histórico da família."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "illumi-zoldyck",
+          "papel": "Presença psicológica dominante",
+          "importancia_no_arco": "Mesmo ausente em parte da ação, permanece como a figura que condiciona o medo e a obediência de Killua."
+        },
+        {
+          "personagem_id": "kikyo-zoldyck",
+          "papel": "Figura materna controladora",
+          "importancia_no_arco": "Expressa o desejo de manter Killua dentro do destino assassino planejado pela família."
+        },
+        {
+          "personagem_id": "milluki-zoldyck",
+          "papel": "Irmão opressor",
+          "importancia_no_arco": "Ajuda a mostrar o ambiente doméstico abusivo e a normalização da violência contra Killua."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Decisão de buscar Killua",
+          "descricao": "Gon, Kurapika e Leorio decidem ir até a propriedade Zoldyck depois que Killua abandona o Exame Hunter.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "kurapika",
+            "leorio-paradinight",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Chegada ao território Zoldyck",
+          "descricao": "O grupo encontra uma propriedade construída para intimidar visitantes e proteger uma família de assassinos profissionais.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "kurapika",
+            "leorio-paradinight"
+          ]
+        },
+        {
+          "titulo": "Revelação da rotina de Killua",
+          "descricao": "A dinâmica familiar mostra que a habilidade de Killua veio acompanhada de tortura, disciplina e isolamento emocional.",
+          "personagens_envolvidos": [
+            "killua-zoldyck",
+            "milluki-zoldyck",
+            "kikyo-zoldyck",
+            "silva-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Persistência de Gon",
+          "descricao": "Gon insiste em encontrar Killua e deixa claro que não trata o amigo como propriedade da família.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "A escolha de Killua",
+          "descricao": "Killua decide sair da mansão e seguir com Gon, fortalecendo sua primeira ruptura concreta com a vida de assassino.",
+          "personagens_envolvidos": [
+            "killua-zoldyck",
+            "gon-freecss",
+            "silva-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Separação temporária do grupo",
+          "descricao": "Depois do reencontro, Kurapika e Leorio seguem seus próprios caminhos, enquanto Gon e Killua decidem treinar na Torre Celestial.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "kurapika",
+            "leorio-paradinight"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Amizade contra posse familiar",
+          "descricao": "Gon trata Killua como amigo, enquanto parte da família o enxerga como herdeiro e ferramenta profissional.",
+          "tipo": "moral"
+        },
+        {
+          "titulo": "Autonomia de Killua",
+          "descricao": "Killua precisa dar o primeiro passo para diferenciar sua própria vontade do condicionamento imposto por Illumi e pela casa Zoldyck.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Acesso à mansão",
+          "descricao": "O grupo enfrenta barreiras físicas e simbólicas que demonstram o abismo entre pessoas comuns e a elite assassina dos Zoldyck.",
+          "tipo": "físico"
+        },
+        {
+          "titulo": "Negociação de autoridade",
+          "descricao": "A saída de Killua depende de uma leitura cuidadosa da hierarquia familiar, especialmente da postura de Silva.",
+          "tipo": "estratégico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Deixa de apenas desejar liberdade e passa a agir por ela, escolhendo acompanhar Gon apesar da pressão familiar."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Mostra que sua lealdade não é abstrata: ele enfrenta uma família de assassinos por um amigo recém-conhecido."
+        },
+        {
+          "personagem_id": "kurapika",
+          "evolucao": "Age com maturidade e solidariedade, reforçando que sua jornada pessoal não elimina seus laços com o grupo."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "evolucao": "Consolida seu papel de apoio emocional e presença protetora dentro do quarteto."
+        }
+      ],
+      "impacto_na_historia": "O arco transforma Killua de apenas candidato talentoso em personagem com conflito familiar próprio, além de justificar sua necessidade de treinar e viver fora da lógica Zoldyck.",
+      "gancho_para_proximo_arco": "Gon e Killua seguem juntos para a Torre Celestial, buscando dinheiro, experiência de combate e preparação para futuros desafios.",
+      "nivel_importancia": "Alto"
+    },
+    {
+      "id": "heavens-arena",
+      "nome": "Torre Celestial",
+      "nome_original": "Heavens Arena arc",
+      "ordem": 3,
+      "imagem": "assets/imagens/arcos/heavens-arena.jpg",
+      "episodios_2011": "27–36",
+      "descricao_curta": "Gon e Killua entram na Torre Celestial para treinar, ganhar dinheiro e conhecer formalmente o sistema de Nen.",
+      "descricao_completa": "Na Torre Celestial, Hunter x Hunter muda de escala. Gon e Killua chegam ao enorme complexo de lutas buscando dinheiro e experiência, mas encontram um limite invisível: a diferença entre força física comum e domínio de aura. O arco introduz formalmente o Nen, estabelece fundamentos como Ten, Zetsu, Ren e Hatsu, e reorganiza a lógica de combate da série em torno de técnica, leitura de intenção e controle de risco.\n\nHisoka retorna como objetivo de revanche para Gon e como régua de comparação. A luta entre os dois mostra progresso real, mas também deixa claro que coragem e talento não bastam contra alguém experiente. A partir daqui, confrontos deixam de ser apenas disputas atléticas e passam a depender de sistemas, condições, blefes e domínio técnico.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Gon e Killua escolhem a Torre Celestial como destino prático: um lugar onde podem lutar, ganhar dinheiro e medir suas capacidades depois do Exame Hunter."
+        },
+        {
+          "titulo": "Progressão inicial",
+          "texto": "Nos primeiros andares, a dupla avança com facilidade graças ao talento físico e à experiência adquirida. Essa facilidade cria contraste com o bloqueio que surge quando lutadores com Nen entram em cena."
+        },
+        {
+          "titulo": "Descoberta do Nen",
+          "texto": "Gon e Killua aprendem que existe uma camada de combate baseada em aura. Ten, Zetsu, Ren e Hatsu são apresentados como fundamentos essenciais para sobreviver contra usuários treinados."
+        },
+        {
+          "titulo": "Treinamento técnico",
+          "texto": "A dupla passa a treinar controle de aura, defesa, ocultação de presença e manifestação individual. O aprendizado cria uma base que será refinada nos arcos seguintes."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Gon enfrenta Hisoka e consegue devolver o golpe simbólico do Exame Hunter. Mesmo assim, a luta evidencia a distância entre um iniciante talentoso e um combatente experiente."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Gon e Killua saem da Torre Celestial com domínio inicial de Nen e uma compreensão mais madura de combate. A história passa a operar com um sistema de poder mais estratégico e consistente."
+        }
+      ],
+      "objetivo_narrativo": "Introduzir o Nen como sistema central da obra, elevar a complexidade dos combates e mostrar que Gon e Killua precisam de técnica para acompanhar inimigos experientes.",
+      "temas": [
+        "treinamento",
+        "disciplina",
+        "aprendizado técnico",
+        "revanche",
+        "limites do talento",
+        "estratégia em combate"
+      ],
+      "locais": [
+        {
+          "nome": "Torre Celestial",
+          "descricao": "Complexo vertical de lutas onde competidores sobem andares conforme vencem combates."
+        },
+        {
+          "nome": "Andares iniciais",
+          "descricao": "Etapas nas quais Gon e Killua avançam com facilidade usando força e reflexos."
+        },
+        {
+          "nome": "Andares superiores",
+          "descricao": "Zona onde o domínio de Nen passa a ser necessário para competir e sobreviver."
+        },
+        {
+          "nome": "Arena de combate",
+          "descricao": "Palco da revanche simbólica entre Gon e Hisoka, usada para medir o avanço técnico do protagonista."
+        },
+        {
+          "nome": "Salas de treinamento",
+          "descricao": "Ambientes usados para consolidar fundamentos de aura e preparar a dupla para lutas reais."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Protagonista em treinamento",
+          "importancia_no_arco": "Aprende os fundamentos do Nen e transforma a revanche contra Hisoka em meta de crescimento."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Parceiro de treinamento",
+          "importancia_no_arco": "Assimila Nen com rapidez e confirma seu potencial técnico fora do treinamento assassino da família."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Rival e parâmetro de poder",
+          "importancia_no_arco": "Serve como obstáculo que demonstra a diferença entre talento inicial e experiência real com Nen."
+        }
+      ],
+      "aliados": [],
+      "inimigos": [
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Adversário principal",
+          "importancia_no_arco": "Aceita enfrentar Gon e usa o combate para testar seu crescimento sem revelar todo o próprio limite."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Entrada na Torre Celestial",
+          "descricao": "Gon e Killua começam a lutar para ganhar dinheiro e experiência depois de deixarem a propriedade Zoldyck.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Subida pelos andares",
+          "descricao": "A dupla vence lutas iniciais rapidamente, revelando que está acima de lutadores comuns mesmo antes de dominar Nen.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Primeiro contato real com Nen",
+          "descricao": "Gon e Killua percebem que há uma força invisível separando usuários experientes de competidores comuns.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "hisoka-morow"
+          ]
+        },
+        {
+          "titulo": "Aprendizado de Ten, Zetsu, Ren e Hatsu",
+          "descricao": "Os fundamentos do Nen são apresentados como base de defesa, ocultação, expansão e expressão individual da aura.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Revanche contra Hisoka",
+          "descricao": "Gon enfrenta Hisoka e consegue demonstrar evolução, mas ainda é superado pela experiência e controle do adversário.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "hisoka-morow"
+          ]
+        },
+        {
+          "titulo": "Mudança no padrão de combate",
+          "descricao": "A série passa a tratar lutas como disputas de aura, leitura estratégica e gestão de condições, não apenas força física.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "hisoka-morow"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Força física contra aura",
+          "descricao": "Gon e Killua descobrem que talento corporal não basta contra usuários que controlam Nen.",
+          "tipo": "físico"
+        },
+        {
+          "titulo": "Revanche sem equivalência",
+          "descricao": "Gon quer acertar contas com Hisoka, mas precisa aceitar que evolução não significa igualdade imediata.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Aprendizado sob risco",
+          "descricao": "A dupla precisa dominar rapidamente fundamentos de aura para não ser destruída por adversários superiores.",
+          "tipo": "estratégico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Transforma coragem em técnica inicial, aprende Nen e entende que precisa crescer muito para enfrentar Hisoka de igual para igual."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Confirma sua capacidade de aprendizado rápido e começa a separar seu talento natural da identidade de assassino."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "evolucao": "Reforça sua função de rival perigoso, interessado no desenvolvimento de Gon como adversário futuro."
+        }
+      ],
+      "impacto_na_historia": "A introdução do Nen redefine todos os conflitos posteriores e cria a base técnica para Yorknew City, Greed Island e Formigas Quimera.",
+      "gancho_para_proximo_arco": "Com Nen inicial dominado, Gon e Killua seguem para Yorknew City em busca de uma forma de adquirir Greed Island e avançar na procura por Ging.",
+      "nivel_importancia": "Muito alto"
+    },
+    {
+      "id": "yorknew-city",
+      "nome": "Yorknew City",
+      "nome_original": "Yorknew City arc",
+      "ordem": 4,
+      "imagem": "assets/imagens/arcos/yorknew-city.jpg",
+      "episodios_2011": "37–58",
+      "descricao_curta": "Um arco urbano e sombrio em que a busca por Greed Island cruza a vingança de Kurapika contra a Brigada Fantasma.",
+      "descricao_completa": "Yorknew City muda o tom da obra para um ambiente criminal, urbano e moralmente ambíguo. Gon e Killua chegam à cidade tentando juntar dinheiro para comprar Greed Island, enquanto Leorio se reúne a eles e Kurapika trabalha como guarda-costas da família Nostrade. A presença de Neon Nostrade e Light Nostrade liga o arco ao submundo da máfia, aos leilões e ao comércio de itens raros, incluindo os Olhos Escarlates do clã Kurta.\n\nA Brigada Fantasma transforma a cidade em zona de guerra ao atacar o leilão. Para Kurapika, o conflito não é apenas profissional: é o encontro direto com os responsáveis pelo massacre de seu povo. Chrollo funciona como centro de gravidade da Brigada, Uvogin e Pakunoda expõem lados opostos da organização, e Hisoka manipula informações por interesse próprio. O resultado é um arco de tensão estratégica, vingança e escolhas morais sem respostas simples.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Gon e Killua chegam a Yorknew City com o objetivo prático de conseguir dinheiro para comprar Greed Island. Leorio se reúne a eles, retomando parte da dinâmica do grupo principal."
+        },
+        {
+          "titulo": "Kurapika na família Nostrade",
+          "texto": "Kurapika trabalha como guarda-costas ligado a Neon Nostrade e Light Nostrade, usando a posição para se aproximar de itens relacionados ao clã Kurta e ao mercado criminoso."
+        },
+        {
+          "titulo": "A Brigada Fantasma entra em ação",
+          "texto": "A Brigada se reúne em Yorknew para roubar itens do leilão. O ataque expõe organização, brutalidade e uma lógica própria de lealdade interna."
+        },
+        {
+          "titulo": "Vingança de Kurapika",
+          "texto": "Kurapika confronta a Brigada por causa do massacre do clã Kurta. Sua estratégia combina preparo de Nen, restrições severas e uma disposição perigosa para sacrificar a própria vida."
+        },
+        {
+          "titulo": "Capturas e negociações",
+          "texto": "Gon e Killua são arrastados para o conflito e capturados pela Brigada, enquanto Kurapika precisa equilibrar vingança pessoal, segurança dos amigos e vantagem tática."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "O confronto indireto entre Kurapika e Chrollo chega ao ponto de troca, ameaça e negociação. Pakunoda assume papel decisivo ao escolher a Brigada, mesmo pagando um preço pessoal."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Yorknew termina sem uma vitória limpa. Kurapika sobrevive, mas carrega ainda mais peso; a Brigada é atingida, mas não destruída; Gon e Killua seguem com o objetivo de chegar a Greed Island."
+        }
+      ],
+      "objetivo_narrativo": "Aprofundar Kurapika, apresentar a Brigada Fantasma como organização complexa e expandir o mundo para o crime, a máfia e os mercados clandestinos.",
+      "temas": [
+        "vingança",
+        "luto",
+        "crime organizado",
+        "lealdade",
+        "moralidade ambígua",
+        "estratégia urbana",
+        "sacrifício pessoal"
+      ],
+      "locais": [
+        {
+          "nome": "Yorknew City",
+          "descricao": "Grande metrópole onde leilões, máfia e Hunters se cruzam em disputas por dinheiro, informação e poder."
+        },
+        {
+          "nome": "Leilão subterrâneo",
+          "descricao": "Centro econômico do arco, alvo da Brigada Fantasma e ponto de interesse para Kurapika."
+        },
+        {
+          "nome": "Base da família Nostrade",
+          "descricao": "Ambiente de trabalho de Kurapika e conexão direta com Neon Nostrade, Light Nostrade e a estrutura mafiosa."
+        },
+        {
+          "nome": "Esconderijos da Brigada",
+          "descricao": "Locais usados pela Brigada para se reorganizar, interrogar e planejar movimentos contra inimigos."
+        },
+        {
+          "nome": "Ruas de Yorknew",
+          "descricao": "Espaço de perseguições, encontros clandestinos e confrontos em que a cidade funciona como tabuleiro estratégico."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "kurapika",
+          "papel": "Protagonista central do arco",
+          "importancia_no_arco": "Conduz o núcleo dramático ao enfrentar a Brigada Fantasma e colocar sua vida sob condições extremas de Nen."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Aliado envolvido no conflito",
+          "importancia_no_arco": "Busca Greed Island, mas acaba entrando na guerra entre Kurapika e a Brigada."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Aliado estratégico",
+          "importancia_no_arco": "Age com leitura tática e protege Gon em uma cidade dominada por ameaças superiores."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "papel": "Apoio do grupo",
+          "importancia_no_arco": "Reúne-se aos amigos e ajuda na busca por recursos e informações."
+        },
+        {
+          "personagem_id": "neon-nostrade",
+          "papel": "Figura da máfia",
+          "importancia_no_arco": "Sua posição e habilidade tornam a família Nostrade relevante para o leilão e para o trabalho de Kurapika."
+        },
+        {
+          "personagem_id": "light-nostrade",
+          "papel": "Chefe mafioso",
+          "importancia_no_arco": "Representa a ambição da família Nostrade e o interesse do submundo em itens raros."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "neon-nostrade",
+          "papel": "Protegida de Kurapika",
+          "importancia_no_arco": "Sua ligação com a máfia coloca Kurapika no caminho dos leilões e dos Olhos Escarlates."
+        },
+        {
+          "personagem_id": "light-nostrade",
+          "papel": "Empregador",
+          "importancia_no_arco": "Fornece a Kurapika acesso ao circuito criminoso que ele precisa investigar."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "chrollo-lucilfer",
+          "papel": "Líder da Brigada Fantasma",
+          "importancia_no_arco": "Coordena o roubo e se torna alvo de Kurapika e Hisoka."
+        },
+        {
+          "personagem_id": "uvogin",
+          "papel": "Combatente da Brigada",
+          "importancia_no_arco": "Seu confronto com Kurapika demonstra a letalidade das correntes."
+        },
+        {
+          "personagem_id": "pakunoda",
+          "papel": "Especialista em memórias",
+          "importancia_no_arco": "Sua decisão final preserva a Brigada ao custo da própria vida."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Membro ambíguo",
+          "importancia_no_arco": "Usa a posição na Brigada para se aproximar de Chrollo."
+        },
+        {
+          "personagem_id": "nobunaga-hazama",
+          "papel": "Espadachim da Brigada",
+          "importancia_no_arco": "Pressiona Gon e Killua e reage à morte de Uvogin."
+        },
+        {
+          "personagem_id": "machi-komacine",
+          "papel": "Usuária de fios de Nen",
+          "importancia_no_arco": "Atua como presença técnica e observadora dentro do grupo."
+        },
+        {
+          "personagem_id": "shalnark",
+          "papel": "Analista e manipulador",
+          "importancia_no_arco": "Contribui para investigação, controle e organização operacional."
+        },
+        {
+          "personagem_id": "shizuku-murasaki",
+          "papel": "Usuária de Blinky",
+          "importancia_no_arco": "Participa do roubo e da limpeza de evidências."
+        },
+        {
+          "personagem_id": "franklin-bordeau",
+          "papel": "Força de fogo da Brigada",
+          "importancia_no_arco": "Representa a capacidade destrutiva do ataque ao leilão."
+        },
+        {
+          "personagem_id": "feitan-portor",
+          "papel": "Executor e torturador",
+          "importancia_no_arco": "Reforça o perfil brutal e especializado da organização."
+        },
+        {
+          "personagem_id": "phinks-magcub",
+          "papel": "Combatente impulsivo",
+          "importancia_no_arco": "Compõe o núcleo de força e decisão da Brigada."
+        },
+        {
+          "personagem_id": "kortopi",
+          "papel": "Falsificador de objetos",
+          "importancia_no_arco": "Amplia a capacidade logística da Brigada nos roubos e despistes."
+        },
+        {
+          "personagem_id": "bonolenov-ndongo",
+          "papel": "Combatente ritualístico",
+          "importancia_no_arco": "Integra a presença coletiva da Brigada em Yorknew."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Busca por Greed Island",
+          "descricao": "Gon e Killua tentam conseguir dinheiro para comprar uma cópia de Greed Island e avançar na busca por Ging.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "ging-freecss"
+          ]
+        },
+        {
+          "titulo": "Reunião com Leorio",
+          "descricao": "Leorio reencontra Gon e Killua em Yorknew, ajudando a recompor parte do grupo principal.",
+          "personagens_envolvidos": [
+            "leorio-paradinight",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Kurapika entra no submundo",
+          "descricao": "Kurapika trabalha como guarda-costas da família Nostrade para se aproximar dos Olhos Escarlates e da rede criminosa.",
+          "personagens_envolvidos": [
+            "kurapika",
+            "neon-nostrade",
+            "light-nostrade"
+          ]
+        },
+        {
+          "titulo": "Reunião da Brigada em Yorknew",
+          "descricao": "A Brigada Fantasma se reúne nos arredores de Yorknew para roubar o leilão subterrâneo e enfrentar qualquer força que tente impedir a operação.",
+          "personagens_envolvidos": [
+            "chrollo-lucilfer",
+            "uvogin",
+            "pakunoda",
+            "hisoka-morow",
+            "nobunaga-hazama",
+            "machi-komacine",
+            "shalnark",
+            "shizuku-murasaki",
+            "franklin-bordeau",
+            "feitan-portor",
+            "phinks-magcub",
+            "kortopi",
+            "bonolenov-ndongo"
+          ]
+        },
+        {
+          "titulo": "Ataque da Brigada ao leilão",
+          "descricao": "A Brigada Fantasma rouba itens e demonstra força coordenada contra a máfia de Yorknew.",
+          "personagens_envolvidos": [
+            "chrollo-lucilfer",
+            "franklin-bordeau",
+            "feitan-portor",
+            "phinks-magcub",
+            "shizuku-murasaki",
+            "uvogin",
+            "machi-komacine",
+            "shalnark",
+            "nobunaga-hazama"
+          ]
+        },
+        {
+          "titulo": "Kurapika enfrenta Uvogin",
+          "descricao": "Kurapika revela a eficácia de suas correntes contra a Brigada e dá forma concreta à sua vingança.",
+          "personagens_envolvidos": [
+            "kurapika",
+            "uvogin"
+          ]
+        },
+        {
+          "titulo": "Gon e Killua são capturados",
+          "descricao": "A dupla é capturada pela Brigada, colocando Kurapika em uma situação de risco emocional e estratégico.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "nobunaga-hazama",
+            "machi-komacine",
+            "pakunoda"
+          ]
+        },
+        {
+          "titulo": "Hisoka manipula informações",
+          "descricao": "Hisoka usa sua posição ambígua para alimentar seus próprios interesses em relação a Chrollo.",
+          "personagens_envolvidos": [
+            "hisoka-morow",
+            "chrollo-lucilfer",
+            "kurapika"
+          ]
+        },
+        {
+          "titulo": "Escolha de Pakunoda",
+          "descricao": "Pakunoda toma uma decisão que preserva a memória e a coesão da Brigada, encerrando o arco em tom trágico.",
+          "personagens_envolvidos": [
+            "pakunoda",
+            "chrollo-lucilfer",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Vingança contra sobrevivência",
+          "descricao": "Kurapika precisa decidir até onde pode ir contra a Brigada sem destruir a si mesmo e colocar seus amigos em risco.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Máfia contra Brigada",
+          "descricao": "O submundo de Yorknew perde controle quando a Brigada mostra que opera acima das regras criminais locais.",
+          "tipo": "político"
+        },
+        {
+          "titulo": "Informação como arma",
+          "descricao": "Kurapika, Chrollo e Hisoka disputam vantagem por blefes, segredos e manipulação de dados incompletos.",
+          "tipo": "estratégico"
+        },
+        {
+          "titulo": "Humanidade dos inimigos",
+          "descricao": "A Brigada é monstruosa em seus crimes, mas seus vínculos internos impedem uma leitura simples de vilania descartável.",
+          "tipo": "moral"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "kurapika",
+          "evolucao": "Alcança seu maior destaque inicial, revelando o custo físico e psicológico de viver para a vingança."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Passa a lidar com inimigos moralmente complexos e entende que coragem direta nem sempre resolve conflitos maiores."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Refina seu papel de estrategista e protetor, avaliando riscos com mais frieza do que Gon."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "evolucao": "Reafirma sua lealdade ao grupo mesmo em um arco dominado por crime e vingança."
+        },
+        {
+          "personagem_id": "pakunoda",
+          "evolucao": "Ganha profundidade ao demonstrar que a lealdade à Brigada pode ser tão forte quanto a brutalidade que ela pratica."
+        },
+        {
+          "personagem_id": "chrollo-lucilfer",
+          "evolucao": "Se consolida como líder calmo, perigoso e difícil de reduzir a um antagonista convencional."
+        }
+      ],
+      "impacto_na_historia": "Yorknew amplia a maturidade da série, desenvolve Kurapika de forma decisiva, estabelece a Brigada Fantasma como força duradoura e mantém Greed Island como próximo objetivo de Gon e Killua.",
+      "gancho_para_proximo_arco": "Depois do caos em Yorknew, Gon e Killua conseguem seguir o rastro de Greed Island, aproximando-se de uma pista direta sobre Ging.",
+      "nivel_importancia": "Muito alto"
+    },
+    {
+      "id": "greed-island",
+      "nome": "Greed Island",
+      "nome_original": "Greed Island arc",
+      "ordem": 5,
+      "imagem": "assets/imagens/arcos/greed-island.jpg",
+      "episodios_2011": "59–75",
+      "descricao_curta": "Gon e Killua entram em um jogo real criado por Hunters, treinam com Biscuit Krueger e avançam na busca por Ging.",
+      "descricao_completa": "Greed Island transforma a busca por Ging em uma experiência de regras, cartas e combates reais. Gon e Killua entram no jogo acreditando que ele pode conter pistas deixadas por Ging, mas descobrem que o ambiente funciona como um território físico com consequências concretas. Cada carta, cidade, deslocamento e duelo exige leitura estratégica, domínio de Nen e capacidade de cooperar com outros jogadores.\n\nBiscuit Krueger assume papel central ao treinar a dupla de forma rigorosa, corrigindo lacunas deixadas pelo aprendizado inicial da Torre Celestial. O arco aprofunda aplicações práticas de Nen, apresenta Razor como desafio criado dentro da lógica do jogo e coloca Genthru, o Bombardeiro, como principal ameaça. Ao final, Gon e Killua não apenas completam uma etapa da busca por Ging: saem mais fortes, mais técnicos e direcionados ao encontro de Kite.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Após Yorknew, Gon e Killua entram em Greed Island buscando uma pista concreta sobre Ging. O jogo se revela um espaço real, criado por Hunters e estruturado por regras próprias."
+        },
+        {
+          "titulo": "Regras do jogo",
+          "texto": "A progressão depende da coleta de cartas, do uso inteligente de recursos e da compreensão de sistemas internos. A aventura assume formato de jogo, mas o perigo é físico e permanente."
+        },
+        {
+          "titulo": "Treinamento com Biscuit",
+          "texto": "Biscuit Krueger percebe o potencial da dupla e passa a treiná-la com disciplina. Gon e Killua melhoram controle de aura, resistência, leitura de combate e aplicação prática de Nen."
+        },
+        {
+          "titulo": "Razor como desafio",
+          "texto": "Razor representa uma prova de força e cooperação dentro do jogo. O confronto contra ele exige trabalho em equipe, cálculo de risco e uso criativo de aura."
+        },
+        {
+          "titulo": "A ameaça do Bombardeiro",
+          "texto": "Genthru transforma a competição em caçada ao usar explosões e intimidação para roubar cartas. Sua presença força Gon, Killua e Biscuit a planejar uma resposta mais elaborada."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Gon enfrenta Genthru em uma luta que combina coragem, dor, preparação e estratégia. A vitória não vem de força isolada, mas de um plano montado para explorar as condições do inimigo."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "A conclusão de Greed Island aproxima Gon de Ging e direciona a dupla até Kite. O arco encerra uma fase de treinamento antes de uma mudança brusca para uma ameaça muito mais sombria."
+        }
+      ],
+      "objetivo_narrativo": "Aprofundar o uso de Nen, fortalecer Gon e Killua por treinamento estruturado e transformar a busca por Ging em uma pista concreta para o próximo arco.",
+      "temas": [
+        "treinamento avançado",
+        "cooperação",
+        "regras e estratégia",
+        "jogo com consequências reais",
+        "crescimento técnico",
+        "busca por Ging"
+      ],
+      "locais": [
+        {
+          "nome": "Greed Island",
+          "descricao": "Jogo real criado por Hunters, com geografia própria, regras de cartas e riscos físicos verdadeiros."
+        },
+        {
+          "nome": "Cidades do jogo",
+          "descricao": "Pontos de circulação, coleta de informação e aquisição de cartas especiais."
+        },
+        {
+          "nome": "Áreas de treinamento",
+          "descricao": "Espaços onde Biscuit intensifica a preparação física e técnica de Gon e Killua."
+        },
+        {
+          "nome": "Campo de confronto contra Razor",
+          "descricao": "Ambiente de desafio coletivo que testa coordenação, resistência e potência de aura."
+        },
+        {
+          "nome": "Zona do confronto contra Genthru",
+          "descricao": "Área usada para executar o plano final contra o Bombardeiro."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Protagonista jogador",
+          "importancia_no_arco": "Busca pistas sobre Ging e amadurece como usuário de Nen em lutas planejadas."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Parceiro estratégico",
+          "importancia_no_arco": "Aprimora técnica, velocidade de análise e suporte tático para Gon."
+        },
+        {
+          "personagem_id": "biscuit-krueger",
+          "papel": "Mentora",
+          "importancia_no_arco": "Treina Gon e Killua com método rigoroso, corrigindo fundamentos e elevando a eficiência da dupla."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Aliado temporário",
+          "importancia_no_arco": "Participa de um desafio específico por conveniência, mantendo sua postura ambígua."
+        },
+        {
+          "personagem_id": "ging-freecss",
+          "papel": "Presença indireta",
+          "importancia_no_arco": "Sua ligação com Greed Island orienta a motivação de Gon e estrutura o sentido do jogo."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "biscuit-krueger",
+          "papel": "Treinadora principal",
+          "importancia_no_arco": "Fornece o treinamento que permite a Gon e Killua competir contra jogadores mais experientes."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Aliado circunstancial",
+          "importancia_no_arco": "Coopera em um desafio do jogo quando seus interesses se alinham temporariamente aos da dupla."
+        },
+        {
+          "personagem_id": "ging-freecss",
+          "papel": "Criador ligado ao objetivo de Gon",
+          "importancia_no_arco": "Funciona como razão narrativa para a entrada no jogo e como pista para o próximo destino."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "genthru",
+          "papel": "Antagonista principal",
+          "importancia_no_arco": "O Bombardeiro usa Nen, intimidação e assassinato para dominar a coleta de cartas."
+        },
+        {
+          "personagem_id": "razor",
+          "papel": "Guardião e desafio do jogo",
+          "importancia_no_arco": "Testa a cooperação e a força de Gon, Killua e seus aliados em uma prova de alto nível."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Entrada em Greed Island",
+          "descricao": "Gon e Killua entram no jogo em busca de pistas sobre Ging e descobrem que Greed Island é um espaço real.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "ging-freecss"
+          ]
+        },
+        {
+          "titulo": "Compreensão das cartas",
+          "descricao": "A dupla aprende que o progresso depende de cartas, condições e domínio das regras internas.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Biscuit assume o treinamento",
+          "descricao": "Biscuit Krueger passa a treinar Gon e Killua, elevando o nível técnico dos dois.",
+          "personagens_envolvidos": [
+            "biscuit-krueger",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Confronto contra Razor",
+          "descricao": "Razor impõe um desafio coletivo que exige potência, resistência e coordenação entre os jogadores.",
+          "personagens_envolvidos": [
+            "razor",
+            "gon-freecss",
+            "killua-zoldyck",
+            "biscuit-krueger",
+            "hisoka-morow"
+          ]
+        },
+        {
+          "titulo": "Revelação do Bombardeiro",
+          "descricao": "Genthru se estabelece como ameaça central ao usar explosões condicionais contra outros jogadores.",
+          "personagens_envolvidos": [
+            "genthru",
+            "gon-freecss",
+            "killua-zoldyck",
+            "biscuit-krueger"
+          ]
+        },
+        {
+          "titulo": "Plano contra Genthru",
+          "descricao": "Gon, Killua e Biscuit montam uma estratégia para separar ameaças e neutralizar o Bombardeiro.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "biscuit-krueger",
+            "genthru"
+          ]
+        },
+        {
+          "titulo": "Vitória e pista final",
+          "descricao": "A conclusão do jogo direciona Gon e Killua para o próximo passo na busca por Ging, levando-os até Kite.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "ging-freecss",
+            "kite"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Regras do jogo contra sobrevivência",
+          "descricao": "Greed Island parece um jogo, mas seus sistemas podem ferir, prender e matar jogadores reais.",
+          "tipo": "estratégico"
+        },
+        {
+          "titulo": "Treinamento contra impaciência",
+          "descricao": "Gon e Killua precisam aceitar disciplina intensiva em vez de depender apenas de talento e intuição.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Bombardeiro contra jogadores",
+          "descricao": "Genthru explora medo e assimetria de informação para controlar outros participantes.",
+          "tipo": "moral"
+        },
+        {
+          "titulo": "Cooperação contra desafios superiores",
+          "descricao": "Razor força a equipe a vencer por coordenação, não por protagonismo individual.",
+          "tipo": "físico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Ganha controle técnico mais consistente, aprende a lutar com planejamento e fortalece sua ligação com a busca por Ging."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Torna-se ainda mais eficiente como suporte estratégico e amadurece sua leitura de risco em combate."
+        },
+        {
+          "personagem_id": "biscuit-krueger",
+          "evolucao": "Assume a função de mentora decisiva, mostrando que progresso real exige método, repetição e correção técnica."
+        },
+        {
+          "personagem_id": "genthru",
+          "evolucao": "Funciona como teste prático para a maturidade da dupla, obrigando Gon a vencer por plano e resistência."
+        }
+      ],
+      "impacto_na_historia": "Greed Island consolida o Nen como sistema prático, prepara Gon e Killua para ameaças mais severas e conecta diretamente a jornada de Ging ao encontro com Kite.",
+      "gancho_para_proximo_arco": "Ao usar a recompensa e seguir a pista deixada pelo jogo, Gon e Killua são direcionados até Kite, abrindo o arco das Formigas Quimera.",
+      "nivel_importancia": "Muito alto"
+    },
+    {
+      "id": "chimera-ant",
+      "nome": "Formigas Quimera",
+      "nome_original": "Chimera Ant arc",
+      "ordem": 6,
+      "imagem": "assets/imagens/arcos/chimera-ant.jpg",
+      "episodios_2011": "76–136",
+      "descricao_curta": "O arco mais extenso e dramático do anime coloca Gon, Killua e a Associação Hunter diante de uma ameaça existencial.",
+      "descricao_completa": "O arco das Formigas Quimera começa como uma investigação biológica ao lado de Kite e rapidamente se transforma em uma crise de escala existencial. A espécie se reproduz e evolui ao consumir outras formas de vida, criando soldados inteligentes, hierarquias internas e uma ameaça capaz de superar a humanidade. NGL, East Gorteau e o Palácio formam a progressão territorial do conflito: da descoberta inicial à guerra organizada contra o Rei.\n\nÉ o arco mais complexo da adaptação de 2011 porque desloca o centro emocional da aventura para trauma, perda, humanidade e monstruosidade. Kite é derrotado por Neferpitou, Gon entra em colapso emocional, Killua amadurece como protetor, Netero lidera uma operação extrema, e Meruem nasce como antagonista absoluto antes de ser transformado por Komugi. O desfecho entre Meruem e Komugi dá ao arco um tom trágico e humano, enquanto o sacrifício de Gon contra Neferpitou deixa consequências profundas para a etapa final do anime.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Depois de Greed Island, Gon e Killua encontram Kite. O reencontro liga a busca por Ging a uma missão de campo, na qual sinais de uma espécie invasiva começam a revelar um perigo muito maior."
+        },
+        {
+          "titulo": "Ameaça em NGL",
+          "texto": "A investigação leva a NGL, região onde as Formigas Quimera se expandem rapidamente. A espécie consome humanos, incorpora características das vítimas e cria soldados cada vez mais inteligentes."
+        },
+        {
+          "titulo": "Derrota de Kite",
+          "texto": "Neferpitou surge como uma força completamente acima do nível esperado. Kite é derrotado, e esse evento quebra a segurança emocional de Gon, que passa a confundir esperança, culpa e vingança."
+        },
+        {
+          "titulo": "Nascimento de Meruem",
+          "texto": "Meruem nasce como Rei das Formigas Quimera e estabelece uma hierarquia baseada em poder absoluto. Neferpitou, Shaiapouf e Menthuthuyoupi formam a Guarda Real, dedicada à proteção e vontade do Rei."
+        },
+        {
+          "titulo": "Preparação dos Hunters",
+          "texto": "Isaac Netero organiza uma resposta com Morel, Knov, Knuckle, Shoot e Palm. O plano exige infiltração, contenção e separação de inimigos muito superiores em aura e resistência."
+        },
+        {
+          "titulo": "East Gorteau e o Palácio",
+          "texto": "O conflito se desloca para East Gorteau e para o Palácio, onde Meruem consolida poder político e militar. A operação dos Hunters depende de tempo, surpresa e sacrifício."
+        },
+        {
+          "titulo": "Komugi e a humanização do Rei",
+          "texto": "Komugi, por meio do Gungi, altera a percepção de Meruem sobre valor, força e humanidade. A relação entre os dois cria o contraste central do arco: monstros aprendendo afeto enquanto humanos recorrem a decisões monstruosas."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Netero enfrenta Meruem em uma batalha que opõe o auge da disciplina humana ao poder evolutivo do Rei. Em paralelo, Gon sacrifica seu futuro para derrotar Neferpitou, transformando dor em autodestruição."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Meruem e Komugi têm um fim íntimo, trágico e profundamente humano. Gon sobrevive apenas em estado crítico, Killua carrega o peso de não conseguir salvá-lo emocionalmente, e a morte de Netero abre a crise política da Associação Hunter."
+        }
+      ],
+      "objetivo_narrativo": "Levar a série ao seu ponto máximo de tensão emocional e filosófica, confrontando humanidade, poder, sacrifício e transformação por meio da ameaça das Formigas Quimera.",
+      "temas": [
+        "humanidade",
+        "monstruosidade",
+        "evolução",
+        "luto",
+        "vingança",
+        "sacrifício",
+        "guerra",
+        "identidade",
+        "empatia",
+        "colapso emocional"
+      ],
+      "locais": [
+        {
+          "nome": "NGL",
+          "descricao": "Região onde a ameaça das Formigas Quimera se desenvolve inicialmente, com isolamento que favorece a expansão da espécie."
+        },
+        {
+          "nome": "Território das Formigas Quimera",
+          "descricao": "Zona de caça e reprodução onde humanos são consumidos e transformados em força militar inimiga."
+        },
+        {
+          "nome": "East Gorteau",
+          "descricao": "País usado como palco político e operacional para o plano de Meruem e da Guarda Real."
+        },
+        {
+          "nome": "Palácio de East Gorteau",
+          "descricao": "Centro do clímax do arco, onde a operação dos Hunters tenta separar o Rei de sua Guarda Real."
+        },
+        {
+          "nome": "Campo de batalha de Netero e Meruem",
+          "descricao": "Local isolado onde a luta entre Netero e Meruem decide o rumo da ameaça principal."
+        },
+        {
+          "nome": "Sala de Gungi",
+          "descricao": "Espaço íntimo em que Komugi transforma Meruem por meio de partidas, diálogo e convivência."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Protagonista em colapso",
+          "importancia_no_arco": "Sua reação à derrota de Kite conduz uma das transformações emocionais mais duras da série."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Protagonista e protetor",
+          "importancia_no_arco": "Amadurece ao tentar proteger Gon física e emocionalmente, mesmo quando não consegue alcançá-lo."
+        },
+        {
+          "personagem_id": "kite",
+          "papel": "Mentor e gatilho dramático",
+          "importancia_no_arco": "Conecta Gon a Ging e sua derrota por Neferpitou desencadeia o colapso emocional do protagonista."
+        },
+        {
+          "personagem_id": "isaac-netero",
+          "papel": "Líder da operação",
+          "importancia_no_arco": "Assume a responsabilidade final de enfrentar Meruem e proteger a humanidade por meios extremos."
+        },
+        {
+          "personagem_id": "meruem",
+          "papel": "Rei das Formigas Quimera",
+          "importancia_no_arco": "Começa como ameaça absoluta e passa por transformação emocional central ao conhecer Komugi."
+        },
+        {
+          "personagem_id": "komugi",
+          "papel": "Centro emocional do Rei",
+          "importancia_no_arco": "Humaniza Meruem e desloca o eixo moral do arco para além da oposição simples entre humano e monstro."
+        },
+        {
+          "personagem_id": "colt",
+          "papel": "Formiga em transição moral",
+          "importancia_no_arco": "Mostra que as Formigas Quimera podem desenvolver lealdade, memória e escolhas além do instinto de conquista."
+        },
+        {
+          "personagem_id": "palm-siberia",
+          "papel": "Hunter envolvida na operação",
+          "importancia_no_arco": "Participa da missão e passa por mudanças que ampliam o custo humano da guerra."
+        },
+        {
+          "personagem_id": "chimera-ant-queen",
+          "papel": "Origem da colônia",
+          "importancia_no_arco": "Gera a ameaça das Formigas Quimera, incluindo a Guarda Real e Meruem."
+        },
+        {
+          "personagem_id": "kite-chimera",
+          "papel": "Renascimento de Kite",
+          "importancia_no_arco": "Representa a continuidade de Kite após a tragédia causada por Neferpitou."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "kite",
+          "papel": "Mentor de campo",
+          "importancia_no_arco": "Guia Gon e Killua no início da investigação e define o peso emocional da ameaça."
+        },
+        {
+          "personagem_id": "isaac-netero",
+          "papel": "Comandante",
+          "importancia_no_arco": "Lidera a resposta da Associação Hunter e assume o confronto direto com Meruem."
+        },
+        {
+          "personagem_id": "morel-mackernasey",
+          "papel": "Hunter de apoio tático",
+          "importancia_no_arco": "Sustenta grande parte da operação com resistência, controle de campo e leitura estratégica."
+        },
+        {
+          "personagem_id": "knov",
+          "papel": "Hunter de infiltração",
+          "importancia_no_arco": "Fornece mobilidade e estrutura logística essenciais para a operação no Palácio."
+        },
+        {
+          "personagem_id": "knuckle-bine",
+          "papel": "Combatente aliado",
+          "importancia_no_arco": "Testa Gon e Killua antes da operação e participa do combate contra a Guarda Real."
+        },
+        {
+          "personagem_id": "shoot-mcmahon",
+          "papel": "Combatente aliado",
+          "importancia_no_arco": "Enfrenta medo e pressão extrema durante a invasão ao Palácio."
+        },
+        {
+          "personagem_id": "palm-siberia",
+          "papel": "Aliada operacional",
+          "importancia_no_arco": "Sua participação mostra o risco psicológico e físico imposto aos Hunters envolvidos."
+        },
+        {
+          "personagem_id": "colt",
+          "papel": "Dissidente das Formigas",
+          "importancia_no_arco": "Ajuda a apresentar uma dimensão menos homogênea das Formigas Quimera após o nascimento do Rei."
+        },
+        {
+          "personagem_id": "kite-chimera",
+          "papel": "Aliado pós-conflito",
+          "importancia_no_arco": "Permite o encerramento emocional parcial da culpa de Gon."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "meruem",
+          "papel": "Antagonista central",
+          "importancia_no_arco": "Representa uma ameaça existencial à humanidade e passa pela maior transformação filosófica do arco."
+        },
+        {
+          "personagem_id": "neferpitou",
+          "papel": "Guarda Real",
+          "importancia_no_arco": "Derrota Kite, protege Meruem e se torna o alvo da vingança extrema de Gon."
+        },
+        {
+          "personagem_id": "shaiapouf",
+          "papel": "Guarda Real",
+          "importancia_no_arco": "Age como defensor ideológico do Rei e tenta preservar uma visão absoluta de Meruem."
+        },
+        {
+          "personagem_id": "menthuthuyoupi",
+          "papel": "Guarda Real",
+          "importancia_no_arco": "Funciona como força bruta colossal durante a invasão ao Palácio."
+        },
+        {
+          "personagem_id": "cheetu",
+          "papel": "Formiga Quimera veloz",
+          "importancia_no_arco": "Representa a imprevisibilidade das Formigas que desenvolvem Nen e personalidade própria."
+        },
+        {
+          "personagem_id": "zazan",
+          "papel": "Líder de esquadrão",
+          "importancia_no_arco": "Mostra a fragmentação de poder entre Formigas Quimera fora do núcleo do Rei."
+        },
+        {
+          "personagem_id": "chimera-ant-queen",
+          "papel": "Rainha das Formigas Quimera",
+          "importancia_no_arco": "Inicia a crise ao consumir humanos e gerar soldados, Guardas Reais e Meruem."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Reencontro com Kite",
+          "descricao": "Gon e Killua encontram Kite após Greed Island, conectando a busca por Ging a uma investigação real.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "kite",
+            "ging-freecss"
+          ]
+        },
+        {
+          "titulo": "Descoberta das Formigas Quimera",
+          "descricao": "A ameaça surge como uma espécie capaz de consumir humanos, evoluir e colocar populações inteiras em risco.",
+          "personagens_envolvidos": [
+            "kite",
+            "gon-freecss",
+            "killua-zoldyck",
+            "colt",
+            "chimera-ant-queen"
+          ]
+        },
+        {
+          "titulo": "Expansão em NGL",
+          "descricao": "As Formigas Quimera se espalham por NGL, criando soldados mais inteligentes e perigosos.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "kite",
+            "cheetu",
+            "zazan"
+          ]
+        },
+        {
+          "titulo": "Kite é derrotado",
+          "descricao": "Neferpitou derrota Kite, provocando o trauma que guia a queda emocional de Gon.",
+          "personagens_envolvidos": [
+            "kite",
+            "neferpitou",
+            "gon-freecss",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Nascimento de Meruem",
+          "descricao": "Meruem nasce como Rei e estabelece a ameaça máxima das Formigas Quimera.",
+          "personagens_envolvidos": [
+            "meruem",
+            "neferpitou",
+            "shaiapouf",
+            "menthuthuyoupi",
+            "colt",
+            "chimera-ant-queen"
+          ]
+        },
+        {
+          "titulo": "Último descendente da Rainha",
+          "descricao": "Após a morte da Rainha, um bebê Formiga Quimera é encontrado entre seus órgãos e fica sob proteção de Colt, sendo posteriormente associado ao renascimento de Kite.",
+          "personagens_envolvidos": [
+            "chimera-ant-queen",
+            "colt",
+            "kite-chimera"
+          ]
+        },
+        {
+          "titulo": "Formação da operação Hunter",
+          "descricao": "Netero, Morel, Knov, Knuckle, Shoot e Palm participam da resposta organizada contra o Rei e sua Guarda Real.",
+          "personagens_envolvidos": [
+            "isaac-netero",
+            "morel-mackernasey",
+            "knov",
+            "knuckle-bine",
+            "shoot-mcmahon",
+            "palm-siberia"
+          ]
+        },
+        {
+          "titulo": "Komugi transforma Meruem",
+          "descricao": "As partidas de Gungi com Komugi mudam a forma como Meruem entende força, valor e afeto.",
+          "personagens_envolvidos": [
+            "meruem",
+            "komugi"
+          ]
+        },
+        {
+          "titulo": "Invasão ao Palácio",
+          "descricao": "Os Hunters invadem o Palácio de East Gorteau para separar Meruem da Guarda Real e executar o plano.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "killua-zoldyck",
+            "isaac-netero",
+            "morel-mackernasey",
+            "knov",
+            "knuckle-bine",
+            "shoot-mcmahon",
+            "palm-siberia",
+            "neferpitou",
+            "shaiapouf",
+            "menthuthuyoupi"
+          ]
+        },
+        {
+          "titulo": "Netero enfrenta Meruem",
+          "descricao": "Netero usa o auge de sua técnica e aceita medidas extremas para impedir o Rei.",
+          "personagens_envolvidos": [
+            "isaac-netero",
+            "meruem"
+          ]
+        },
+        {
+          "titulo": "Gon sacrifica seu futuro",
+          "descricao": "Gon abre mão de seu potencial para obter poder imediato e derrotar Neferpitou.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "neferpitou",
+            "killua-zoldyck"
+          ]
+        },
+        {
+          "titulo": "Fim de Meruem e Komugi",
+          "descricao": "Meruem e Komugi encerram o arco em uma cena íntima, trágica e humana, distante da lógica inicial de conquista.",
+          "personagens_envolvidos": [
+            "meruem",
+            "komugi"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Humanidade contra extinção",
+          "descricao": "As Formigas Quimera representam uma ameaça biológica e política capaz de substituir humanos no topo da cadeia de poder.",
+          "tipo": "político"
+        },
+        {
+          "titulo": "Luto de Gon contra razão",
+          "descricao": "Gon se agarra à esperança de recuperar Kite e transforma dor em uma obsessão cada vez mais destrutiva.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Proteção de Killua contra impotência",
+          "descricao": "Killua percebe que proteger Gon fisicamente não basta quando o amigo está desmoronando por dentro.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Operação contra seres superiores",
+          "descricao": "Os Hunters precisam vencer por planejamento, separação de alvos e sacrifício, pois a Guarda Real supera a maioria deles em poder bruto.",
+          "tipo": "estratégico"
+        },
+        {
+          "titulo": "Meruem contra sua própria identidade",
+          "descricao": "Meruem nasce para dominar, mas sua relação com Komugi desmonta sua visão inicial de força e valor.",
+          "tipo": "moral"
+        },
+        {
+          "titulo": "Netero contra Meruem",
+          "descricao": "O confronto direto coloca o ápice do treinamento humano contra uma evolução biológica praticamente incomparável.",
+          "tipo": "físico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Passa de protagonista otimista a alguém consumido por culpa e vingança, chegando ao ponto de sacrificar o próprio futuro."
+        },
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Amadurece ao reconhecer seus limites emocionais, sua dependência de Gon e a necessidade de tomar decisões próprias."
+        },
+        {
+          "personagem_id": "kite",
+          "evolucao": "Funciona como mentor e perda central, redefinindo o arco inteiro mesmo após ser derrotado por Neferpitou."
+        },
+        {
+          "personagem_id": "isaac-netero",
+          "evolucao": "Revela a profundidade de sua responsabilidade como líder e guerreiro disposto a morrer pela humanidade."
+        },
+        {
+          "personagem_id": "meruem",
+          "evolucao": "Sai de uma visão de superioridade absoluta para uma compreensão íntima de afeto, respeito e fragilidade humana."
+        },
+        {
+          "personagem_id": "komugi",
+          "evolucao": "Permanece sem poder de combate, mas se torna a força transformadora mais importante sobre Meruem."
+        },
+        {
+          "personagem_id": "neferpitou",
+          "evolucao": "Passa de ameaça aterrorizante a guardiã desesperada pelo Rei, sem deixar de ser o trauma central de Gon."
+        },
+        {
+          "personagem_id": "palm-siberia",
+          "evolucao": "Entra como participante da operação e se torna exemplo do custo físico e psicológico imposto pelo conflito."
+        },
+        {
+          "personagem_id": "chimera-ant-queen",
+          "evolucao": "Passa de origem biológica da ameaça a figura trágica que morre ao gerar Meruem e deixa consequências que continuam após sua morte."
+        },
+        {
+          "personagem_id": "kite-chimera",
+          "evolucao": "Surge como continuidade de Kite em forma quimera, preservando a perda original sem apagar o impacto emocional sobre Gon."
+        }
+      ],
+      "impacto_na_historia": "Formigas Quimera redefine a série em escala emocional, política e filosófica. A morte de Netero provoca a eleição seguinte, Gon fica em estado crítico, Killua precisa buscar uma solução fora da Associação Hunter, e a noção de humanidade da obra se torna mais complexa.",
+      "gancho_para_proximo_arco": "Com Netero morto e Gon gravemente ferido após derrotar Neferpitou, a Associação Hunter precisa eleger um novo presidente enquanto Killua procura Alluka para salvar o amigo.",
+      "nivel_importancia": "Máximo"
+    },
+    {
+      "id": "election",
+      "nome": "Eleição do 13º Presidente",
+      "nome_original": "13th Hunter Chairman Election arc",
+      "ordem": 7,
+      "imagem": "assets/imagens/arcos/election.jpg",
+      "episodios_2011": "137–148",
+      "descricao_curta": "Após a morte de Netero, a Associação Hunter entra em disputa política enquanto Killua busca Alluka para salvar Gon.",
+      "descricao_completa": "A Eleição do 13º Presidente funciona como epílogo político e emocional da adaptação de 2011. A morte de Isaac Netero obriga a Associação Hunter a escolher uma nova liderança, colocando os Zodíacos no centro de uma disputa marcada por regras eleitorais, cálculo de influência e rivalidade pública. Pariston Hill e Cheadle Yorkshire simbolizam visões opostas de poder, enquanto Mizaistom Nana, Botobai Gigante e Saccho Kobayakawa ajudam a compor o núcleo institucional que tenta manter a Associação funcional.\n\nEm paralelo, o arco entrega o fechamento emocional da jornada inicial de Gon e Killua. Gon está em estado crítico por causa do sacrifício feito contra Neferpitou, e Killua retorna ao universo Zoldyck para buscar Alluka, cuja existência é tratada pela família como ameaça e ferramenta. Illumi tenta controlar a situação, Leorio ganha destaque inesperado na eleição, Gon é curado e finalmente encontra Ging. O anime encerra essa fase com a meta inicial de Gon cumprida, mas com cicatrizes claras do caminho percorrido.",
+      "historia_detalhada": [
+        {
+          "titulo": "Início",
+          "texto": "Após a morte de Netero, a Associação Hunter precisa organizar uma eleição para escolher o 13º presidente. A sucessão transforma o luto institucional em disputa política."
+        },
+        {
+          "titulo": "Disputa entre os Zodíacos",
+          "texto": "Pariston, Cheadle, Mizaistom, Botobai e Saccho aparecem como figuras relevantes na condução e no equilíbrio da eleição. O processo revela a complexidade interna da Associação."
+        },
+        {
+          "titulo": "Estado crítico de Gon",
+          "texto": "As consequências do arco das Formigas Quimera deixam Gon à beira da morte. A crise desloca Killua para o centro emocional da narrativa."
+        },
+        {
+          "titulo": "Busca por Alluka",
+          "texto": "Killua vai atrás de Alluka para salvar Gon, enfrentando regras familiares, medo e o interesse de Illumi no poder associado a ela."
+        },
+        {
+          "titulo": "Leorio ganha projeção",
+          "texto": "Leorio, movido por indignação e afeto por Gon, ganha destaque público inesperado. Sua reação direta o transforma em símbolo de autenticidade dentro de uma eleição calculada."
+        },
+        {
+          "titulo": "Clímax",
+          "texto": "Killua consegue levar Alluka até Gon apesar da perseguição e da tentativa de controle de Illumi. A cura de Gon resolve a consequência mais urgente do sacrifício nas Formigas Quimera."
+        },
+        {
+          "titulo": "Consequências",
+          "texto": "Gon finalmente encontra Ging, encerrando a jornada iniciada na Ilha da Baleia. Killua escolhe proteger Alluka e seguir um caminho próprio, separando-se emocionalmente da função de acompanhante de Gon."
+        }
+      ],
+      "objetivo_narrativo": "Resolver as consequências imediatas das Formigas Quimera, encerrar a busca inicial de Gon por Ging, dar protagonismo emocional a Killua e mostrar a política interna da Associação Hunter.",
+      "temas": [
+        "sucessão política",
+        "cura",
+        "família",
+        "autonomia",
+        "amizade",
+        "responsabilidade",
+        "encerramento de jornada"
+      ],
+      "locais": [
+        {
+          "nome": "Associação Hunter",
+          "descricao": "Centro institucional da eleição e palco da disputa pela sucessão de Netero."
+        },
+        {
+          "nome": "Auditório da eleição",
+          "descricao": "Espaço onde discursos, votos e alianças revelam tensões internas entre Hunters."
+        },
+        {
+          "nome": "Propriedade Zoldyck",
+          "descricao": "Local ao qual Killua retorna para buscar Alluka e confrontar novamente o controle familiar."
+        },
+        {
+          "nome": "Hospital",
+          "descricao": "Ambiente em que o estado crítico de Gon concentra urgência emocional e médica."
+        },
+        {
+          "nome": "Árvore do Mundo",
+          "descricao": "Local simbólico do encontro entre Gon e Ging, encerrando a busca que moveu o protagonista desde o início."
+        }
+      ],
+      "participantes": [
+        {
+          "personagem_id": "killua-zoldyck",
+          "papel": "Protagonista emocional",
+          "importancia_no_arco": "Assume a responsabilidade de salvar Gon e proteger Alluka contra a própria família."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "papel": "Paciente e centro do fechamento",
+          "importancia_no_arco": "É curado das consequências do arco anterior e finalmente encontra Ging."
+        },
+        {
+          "personagem_id": "alluka-zoldyck",
+          "papel": "Chave da cura",
+          "importancia_no_arco": "Sua relação com Killua permite salvar Gon e expõe a violência utilitária da família Zoldyck."
+        },
+        {
+          "personagem_id": "ging-freecss",
+          "papel": "Objetivo da jornada de Gon",
+          "importancia_no_arco": "Aparece como figura concreta no encerramento da adaptação e conversa com Gon após a cura."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "papel": "Candidato inesperado e amigo de Gon",
+          "importancia_no_arco": "Ganha destaque na eleição ao expressar publicamente sua frustração com Ging e sua preocupação com Gon."
+        },
+        {
+          "personagem_id": "pariston-hill",
+          "papel": "Figura política central",
+          "importancia_no_arco": "Movimenta a eleição com carisma, manipulação e domínio das regras institucionais."
+        },
+        {
+          "personagem_id": "cheadle-yorkshire",
+          "papel": "Zodíaco e liderança alternativa",
+          "importancia_no_arco": "Representa uma oposição mais responsável e institucional ao estilo de Pariston."
+        }
+      ],
+      "aliados": [
+        {
+          "personagem_id": "alluka-zoldyck",
+          "papel": "Aliada de Killua",
+          "importancia_no_arco": "Confia em Killua e torna possível a cura de Gon."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "papel": "Aliado de Gon",
+          "importancia_no_arco": "Transforma preocupação pessoal em força pública durante a eleição."
+        },
+        {
+          "personagem_id": "ging-freecss",
+          "papel": "Figura de encerramento",
+          "importancia_no_arco": "Concretiza o objetivo de Gon e ajuda a fechar a jornada inicial do anime."
+        },
+        {
+          "personagem_id": "cheadle-yorkshire",
+          "papel": "Zodíaco",
+          "importancia_no_arco": "Atua como contraponto político a Pariston e busca estabilidade para a Associação."
+        },
+        {
+          "personagem_id": "mizaistom-nana",
+          "papel": "Zodíaco",
+          "importancia_no_arco": "Ajuda a representar o bloco institucional preocupado com regras, ordem e consequência."
+        },
+        {
+          "personagem_id": "botobai-gigante",
+          "papel": "Zodíaco",
+          "importancia_no_arco": "Compõe a liderança veterana envolvida na sucessão de Netero."
+        }
+      ],
+      "inimigos": [
+        {
+          "personagem_id": "illumi-zoldyck",
+          "papel": "Antagonista familiar",
+          "importancia_no_arco": "Tenta controlar ou impedir o uso de Alluka, tratando seu poder como propriedade estratégica."
+        },
+        {
+          "personagem_id": "pariston-hill",
+          "papel": "Rival político",
+          "importancia_no_arco": "Manipula a eleição com precisão e transforma o processo em disputa de influência."
+        },
+        {
+          "personagem_id": "hisoka-morow",
+          "papel": "Ameaça oportunista",
+          "importancia_no_arco": "Circula em torno do conflito de Killua e Illumi como presença perigosa e imprevisível."
+        }
+      ],
+      "eventos_principais": [
+        {
+          "titulo": "Morte de Netero e sucessão",
+          "descricao": "A Associação Hunter inicia uma eleição para escolher o novo presidente após a morte de Isaac Netero.",
+          "personagens_envolvidos": [
+            "isaac-netero",
+            "pariston-hill",
+            "cheadle-yorkshire",
+            "mizaistom-nana",
+            "botobai-gigante"
+          ]
+        },
+        {
+          "titulo": "Disputa dos Zodíacos",
+          "descricao": "Pariston e Cheadle conduzem polos opostos da eleição, enquanto outros Zodíacos tentam preservar a Associação.",
+          "personagens_envolvidos": [
+            "pariston-hill",
+            "cheadle-yorkshire",
+            "mizaistom-nana",
+            "botobai-gigante"
+          ]
+        },
+        {
+          "titulo": "Leorio ganha destaque",
+          "descricao": "Leorio chama atenção pública ao agir por indignação e afeto por Gon, mudando a temperatura emocional da eleição.",
+          "personagens_envolvidos": [
+            "leorio-paradinight",
+            "ging-freecss",
+            "gon-freecss"
+          ]
+        },
+        {
+          "titulo": "Killua busca Alluka",
+          "descricao": "Killua retorna ao ambiente Zoldyck para levar Alluka até Gon e usar seu poder de cura.",
+          "personagens_envolvidos": [
+            "killua-zoldyck",
+            "alluka-zoldyck",
+            "gon-freecss"
+          ]
+        },
+        {
+          "titulo": "Illumi tenta controlar a situação",
+          "descricao": "Illumi persegue Killua e tenta impedir que Alluka seja usada fora dos interesses da família.",
+          "personagens_envolvidos": [
+            "illumi-zoldyck",
+            "killua-zoldyck",
+            "alluka-zoldyck",
+            "hisoka-morow"
+          ]
+        },
+        {
+          "titulo": "Gon é curado",
+          "descricao": "Alluka cura Gon, encerrando a consequência física mais grave do sacrifício feito contra Neferpitou.",
+          "personagens_envolvidos": [
+            "alluka-zoldyck",
+            "killua-zoldyck",
+            "gon-freecss"
+          ]
+        },
+        {
+          "titulo": "Gon encontra Ging",
+          "descricao": "Gon finalmente conversa com Ging, cumprindo o objetivo iniciado no primeiro episódio.",
+          "personagens_envolvidos": [
+            "gon-freecss",
+            "ging-freecss"
+          ]
+        },
+        {
+          "titulo": "Encerramento da jornada inicial",
+          "descricao": "Killua escolhe seguir protegendo Alluka, enquanto Gon fecha a primeira grande etapa de sua busca.",
+          "personagens_envolvidos": [
+            "killua-zoldyck",
+            "alluka-zoldyck",
+            "gon-freecss",
+            "ging-freecss"
+          ]
+        }
+      ],
+      "conflitos": [
+        {
+          "titulo": "Sucessão da Associação Hunter",
+          "descricao": "A morte de Netero abre uma disputa em que regras eleitorais, influência e personalidade pesam tanto quanto competência.",
+          "tipo": "político"
+        },
+        {
+          "titulo": "Killua contra controle familiar",
+          "descricao": "Killua precisa salvar Gon sem permitir que Illumi reduza Alluka a ferramenta da família Zoldyck.",
+          "tipo": "emocional"
+        },
+        {
+          "titulo": "Uso de Alluka",
+          "descricao": "O arco discute se um poder capaz de salvar vidas pode ser tratado como recurso estratégico, ameaça ou pessoa.",
+          "tipo": "moral"
+        },
+        {
+          "titulo": "Pariston contra estabilidade",
+          "descricao": "Pariston transforma a eleição em jogo de manipulação, forçando os Zodíacos a reagir dentro das próprias regras.",
+          "tipo": "estratégico"
+        }
+      ],
+      "evolucao_personagens": [
+        {
+          "personagem_id": "killua-zoldyck",
+          "evolucao": "Assume protagonismo pleno, escolhe proteger Alluka e deixa de organizar sua vida apenas em torno de Gon."
+        },
+        {
+          "personagem_id": "gon-freecss",
+          "evolucao": "Sobrevive às consequências de sua autodestruição e cumpre o objetivo de encontrar Ging, encerrando sua jornada inicial."
+        },
+        {
+          "personagem_id": "alluka-zoldyck",
+          "evolucao": "Deixa de ser tratada apenas como segredo perigoso e passa a ser afirmada por Killua como pessoa a ser protegida."
+        },
+        {
+          "personagem_id": "leorio-paradinight",
+          "evolucao": "Recebe destaque público e reafirma seu valor como personagem guiado por empatia direta e senso de cuidado."
+        },
+        {
+          "personagem_id": "ging-freecss",
+          "evolucao": "Sai da posição de meta distante e se torna presença real, permitindo que Gon confronte o objetivo que perseguiu desde o início."
+        },
+        {
+          "personagem_id": "pariston-hill",
+          "evolucao": "Estabelece-se como força política carismática, calculista e difícil de prever dentro da Associação Hunter."
+        }
+      ],
+      "impacto_na_historia": "O arco encerra a adaptação de 2011 ao resolver o estado de Gon, separar emocionalmente os caminhos de Gon e Killua, apresentar a política dos Zodíacos e completar o encontro entre Gon e Ging.",
+      "gancho_para_proximo_arco": "A adaptação de 2011 se encerra com a jornada inicial de Gon concluída; arcos posteriores, como Succession Contest arc, pertencem ao mangá e não fazem parte do foco principal deste JSON.",
+      "nivel_importancia": "Muito alto"
+    }
+  ]
+}
