@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enciclopédia digital sobre personagens, arcos e sistema de Nen de Hunter x Hunter (2011).">
+  <title>Hunter x Hunter | Enciclopédia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/utils.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header id="site-header" class="site-header"></header>
+
+  <main>
+    <section class="hero hero-home" aria-labelledby="hero-title">
+      <img id="banner-home" src="assets/imagens/geral/banner-home.jpg" alt="Hunter x Hunter 2011">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Anime 2011</p>
+        <h1 id="hero-title">Enciclopédia Hunter x Hunter</h1>
+        <p>Um guia visual do mundo dos Hunters, seus personagens, arcos decisivos e o complexo sistema de Nen.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-column">
+        <article class="panel">
+          <p class="eyebrow">Resumo da Obra</p>
+          <h2>Uma jornada de Hunters, laços e escolhas difíceis</h2>
+          <p>Hunter x Hunter acompanha Gon Freecss, um garoto que deixa a Ilha da Baleia para se tornar Hunter e encontrar Ging, seu pai. A jornada coloca Gon ao lado de Killua, Kurapika e Leorio, atravessando exames, cidades criminosas, jogos letais e ameaças capazes de mudar a humanidade.</p>
+          <p>A obra começa como aventura de descoberta e se transforma em um estudo de estratégia, ambição, trauma e poder. O Nen redefine os combates ao transformar aura, personalidade e restrições em ferramentas narrativas centrais.</p>
+        </article>
+        <article class="panel panel-accent" id="nen-resumo-card">
+          <p class="eyebrow">Sistema de Nen</p>
+          <h2>Nen</h2>
+          <p>A aura como linguagem de combate, disciplina e identidade.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="personagens">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-title">
+            <p class="eyebrow">Elenco</p>
+            <h2>Personagens</h2>
+          </div>
+          <div class="section-search">
+            <input id="busca-personagens" type="search" placeholder="Buscar personagem" aria-label="Buscar personagem">
+          </div>
+        </div>
+        <div class="filter-bar" id="filtros-personagens" aria-label="Filtrar personagens"></div>
+        <div class="grid cards-grid" id="lista-personagens" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="inimigos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Antagonistas</p>
+            <h2>Inimigos e forças de conflito</h2>
+          </div>
+        </div>
+        <div class="grid cards-grid" id="lista-inimigos" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section" id="arcos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">História</p>
+            <h2>Arcos de Hunter x Hunter (2011)</h2>
+          </div>
+        </div>
+        <div class="grid arc-grid" id="lista-arcos" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="contratos">
+      <div class="container two-column">
+        <article class="panel">
+          <p class="eyebrow">Nen</p>
+          <h2>Condições, restrições e juramentos</h2>
+          <div id="contratos-nen">
+            <p>Pactos de aura que ampliam poder ao impor riscos, regras e consequências.</p>
+          </div>
+        </article>
+        <article class="panel">
+          <p class="eyebrow">Explorar</p>
+          <h2>Guia completo de Nen</h2>
+          <p>Fundamentos, técnicas, afinidades, habilidades individuais e termos essenciais para entender o sistema de aura.</p>
+          <a class="button" href="nem.html">Conhecer Nen</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+</body>
+</html>
